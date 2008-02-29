@@ -1,0 +1,12 @@
+tags
+*~
+*.sw*
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.old
+*.bkp
+*.arj
+tmp/
+log/
