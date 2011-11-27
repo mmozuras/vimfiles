@@ -50,8 +50,8 @@
 	path = bundle/textile
 	url = git://github.com/timcharper/textile.vim.git
   ignore = dirty
-[submodule "bundle/vim-ruby"]
-	path = bundle/vim-ruby
+[submodule "bundle/ruby"]
+	path = bundle/ruby
 	url = git://github.com/vim-ruby/vim-ruby.git
   ignore = dirty
 [submodule "bundle/unimpaired"]
