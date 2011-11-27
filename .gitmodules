@@ -1,117 +1,128 @@
 [submodule "snippets"]
 	path = snippets
 	url = git://github.com/akitaonrails/snipmate-snippets.git
-  ignore = dirty
+        ignore = dirty
 [submodule "bundle/rails"]
 	path = bundle/rails
 	url = git://github.com/tpope/vim-rails.git
-  ignore = dirty
+        ignore = dirty
 [submodule "bundle/cucumber"]
 	path = bundle/cucumber
 	url = git://github.com/tpope/vim-cucumber.git
-  ignore = dirty
+        ignore = dirty
 [submodule "bundle/haml"]
 	path = bundle/haml
 	url = git://github.com/tpope/vim-haml.git
-  ignore = dirty
+        ignore = dirty
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = git://github.com/tpope/vim-surround.git
-  ignore = dirty
+        ignore = dirty
 [submodule "bundle/NERD_commenter"]
 	path = bundle/NERD_commenter
 	url = git://github.com/scrooloose/nerdcommenter.git
-  ignore = dirty
+        ignore = dirty
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = git://github.com/tpope/vim-fugitive.git
-  ignore = dirty
+        ignore = dirty
 [submodule "bundle/markdown"]
 	path = bundle/markdown
 	url = git://github.com/tpope/vim-markdown.git
-  ignore = dirty
+        ignore = dirty
 [submodule "bundle/endwise"]
 	path = bundle/endwise
 	url = git://github.com/tpope/vim-endwise.git
-  ignore = dirty
+        ignore = dirty
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = git://github.com/akitaonrails/snipmate.vim.git
-  ignore = dirty
+        ignore = dirty
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
-  ignore = dirty
+        ignore = dirty
 [submodule "bundle/Command-T"]
 	path = bundle/Command-T
 	url = git://github.com/akitaonrails/Command-T.git
-  ignore = dirty
+        ignore = dirty
 [submodule "bundle/textile"]
 	path = bundle/textile
 	url = git://github.com/timcharper/textile.vim.git
-  ignore = dirty
+        ignore = dirty
 [submodule "bundle/ruby"]
 	path = bundle/ruby
 	url = git://github.com/vim-ruby/vim-ruby.git
-  ignore = dirty
+        ignore = dirty
 [submodule "bundle/unimpaired"]
 	path = bundle/unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
-  ignore = dirty
+        ignore = dirty
 [submodule "bundle/scss-syntax"]
 	path = bundle/scss-syntax
 	url = http://github.com/cakebaker/scss-syntax.vim.git
-  ignore = dirty
+        ignore = dirty
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = git://github.com/mileszs/ack.vim.git
-  ignore = dirty
-[submodule "bundle/vim-coffee-script"]
-	path = bundle/vim-coffee-script
+        ignore = dirty
+[submodule "bundle/coffee-script"]
+	path = bundle/coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
-  ignore = dirty
+        ignore = dirty
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = git://github.com/ervandew/supertab.git
-  ignore = dirty
-[submodule "bundle/vim-ruby-sinatra"]
-	path = bundle/vim-ruby-sinatra
+        ignore = dirty
+[submodule "bundle/ruby-sinatra"]
+	path = bundle/ruby-sinatra
 	url = git://github.com/hallison/vim-ruby-sinatra.git
-  ignore = dirty
+        ignore = dirty
 [submodule "bundle/securemodelines"]
 	path = bundle/securemodelines
 	url = git://github.com/ciaranm/securemodelines.git
-  ignore = dirty
-[submodule "bundle/vim-textobj-user"]
-	path = bundle/vim-textobj-user
+        ignore = dirty
+[submodule "bundle/textobj-user"]
+	path = bundle/textobj-user
 	url = git://github.com/kana/vim-textobj-user.git
-[submodule "bundle/vim-textobj-rubybloc"]
-	path = bundle/vim-textobj-rubybloc
+        ignore = dirty
+[submodule "bundle/textobj-rubybloc"]
+	path = bundle/textobj-rubybloc
 	url = git://github.com/nelstrom/vim-textobj-rubyblock.git
-[submodule "bundle/vim-preview"]
-	path = bundle/vim-preview
+        ignore = dirty
+[submodule "bundle/preview"]
+	path = bundle/preview
 	url = git://github.com/greyblake/vim-preview.git
-[submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
+        ignore = dirty
+[submodule "bundle/colors-solarized"]
+	path = bundle/colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule "bundle/vim-jquery"]
-	path = bundle/vim-jquery
+        ignore = dirty
+[submodule "bundle/jquery"]
+	path = bundle/jquery
 	url = git://github.com/itspriddle/vim-jquery.git
+        ignore = dirty
 [submodule "bundle/html5.vim"]
 	path = bundle/html5.vim
 	url = git://github.com/othree/html5.vim.git
+        ignore = dirty
 [submodule "bundle/gundo"]
 	path = bundle/gundo
 	url = http://github.com/sjl/gundo.vim.git
-[submodule "bundle/vim-yankring"]
-	path = bundle/vim-yankring
+        ignore = dirty
+[submodule "bundle/yankring"]
+	path = bundle/yankring
 	url = git://github.com/chrismetcalf/vim-yankring.git
-[submodule "bundle/vim-less"]
-	path = bundle/vim-less
+        ignore = dirty
+[submodule "bundle/less"]
+	path = bundle/less
 	url = https://github.com/groenewege/vim-less
+        ignore = dirty
 [submodule "bundle/pathogen"]
 	path = bundle/pathogen
 	url = git://github.com/tpope/vim-pathogen.git
+        ignore = dirty
 [submodule "bundle/camelcasemotion"]
 	path = bundle/camelcasemotion
 	url = git://github.com/vim-scripts/camelcasemotion.git
+        ignore = dirty
