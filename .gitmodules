@@ -126,3 +126,7 @@
 	path = bundle/camelcasemotion
 	url = git://github.com/vim-scripts/camelcasemotion.git
         ignore = dirty
+[submodule "bundle/jade"]
+	path = bundle/jade
+	url = git://github.com/digitaltoad/vim-jade.git
+        ignore = dirty
