@@ -44,7 +44,7 @@
         ignore = dirty
 [submodule "bundle/Command-T"]
 	path = bundle/Command-T
-	url = git://github.com/akitaonrails/Command-T.git
+        url = git://github.com/wincent/Command-T.git
         ignore = dirty
 [submodule "bundle/textile"]
 	path = bundle/textile
