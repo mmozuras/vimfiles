@@ -42,10 +42,6 @@
 	path = bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
         ignore = dirty
-[submodule "bundle/Command-T"]
-	path = bundle/Command-T
-        url = git://github.com/wincent/Command-T.git
-        ignore = dirty
 [submodule "bundle/textile"]
 	path = bundle/textile
 	url = git://github.com/timcharper/textile.vim.git
@@ -133,4 +129,8 @@
 [submodule "bundle/stylus"]
 	path = bundle/stylus
 	url = git://github.com/wavded/vim-stylus.git
+        ignore = dirty
+[submodule "bundle/Command-T"]
+	path = bundle/Command-T
+	url = git://github.com/wincent/Command-T.git
         ignore = dirty
