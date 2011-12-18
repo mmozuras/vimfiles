@@ -31,7 +31,6 @@ set wrap linebreak nolist
 "map <Leader> from \ to ,
 let mapleader = ","
 
-"map <Leader><Leader> to <C-^>
 map <Leader><Leader> <C-^>
 
 "mapping for command key to map navigation thru display lines instead
@@ -67,10 +66,9 @@ set linespace=4
 "disable visual bell
 set visualbell t_vb=
 
-"statusline setup - filename, git, rvm
+"statusline setup - filename, git
 set statusline=%f
 set statusline+=%{fugitive#statusline()}
-set statusline+=%{exists('g:loaded_rvm')?rvm#statusline():''}
 
 set statusline+=%=      "left/right separator
 set statusline+=%c,     "cursor column
@@ -78,10 +76,8 @@ set statusline+=%l/%L   "cursor line/total lines
 set statusline+=\ %P    "percent through file
 set laststatus=2
 
-"turn off needless toolbar on gvim/mvim
+"turn off toolbar and menu bar on gvim/mvim
 set guioptions-=T
-
-"turn off the menu bar on gvim/mvim
 set guioptions-=m
 
 "turn off scrollbars
@@ -129,6 +125,7 @@ set hidden
 
 "Command-T configuration
 let g:CommandTMaxHeight=15
+nnoremap <leader>t :CommandT<CR>
 
 colorscheme ir_black
 if has("gui_running")
@@ -141,13 +138,9 @@ if has("gui_running")
 
     if has("gui_gnome")
         set guifont=Monospace\ Bold\ 11
-    endif
-
-    if has("gui_mac") || has("gui_macvim")
+    elseif has("gui_mac") || has("gui_macvim")
         set guifont=Menlo:h12
-    endif
-
-    if has("gui_win32") || has("gui_win32s")
+    elseif has("gui_win32") || has("gui_win32s")
         set guifont=Consolas:h11
         set enc=utf-8
     endif
@@ -157,23 +150,8 @@ endif
 nnoremap <C-L> :nohls<CR><C-L>
 inoremap <C-L> <C-O>:nohls<CR>
 
-"map to CommandT TextMate style finder
-nnoremap <leader>t :CommandT<CR>
-
-"map Q to something useful
-noremap Q gq
-
-"make Y consistent with C and D
-nnoremap Y y$
-
 "mark syntax errors with :signs
 let g:syntastic_enable_signs=1
-
-"key mapping for vimgrep result navigation
-map <A-o> :copen<CR>
-map <A-q> :cclose<CR>
-map <A-j> :cnext<CR>
-map <A-k> :cprevious<CR>
 
 "snipmate setup
 try
