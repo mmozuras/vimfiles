@@ -26,6 +26,7 @@ It is recommended that you use [gVim](http://www.vim.org/download.php#pc) in eit
 * [ruby](https://github.com/vim-ruby/vim-ruby/wiki) - syntax highlight, smart identation, auto-complete for Ruby
 * [ruby-sinatra](https://github.com/hallison/vim-ruby-sinatra) - syntax highlight for Sinatra
 * [securemodelines](http://www.vim.org/scripts/script.php?script_id=1876) - makes it harder to do something unsecure with modeline
+* [slim](https://github.com/bbommarito/vim-slim) - syntax highlight for Slim
 * [snipmate](https://github.com/akitaonrails/snipmate.vim) - support for textmate-like snippets for several languages
 * [supertab](http://www.vim.org/scripts/script.php?script_id=1643) - pseudo auto-complete with tab
 * [surround](http://www.vim.org/scripts/script.php?script_id=1697) - add, change, remove surrounding parentheses, brackets, quotes, etc
