@@ -67,13 +67,9 @@ set linespace=4
 "disable visual bell
 set visualbell t_vb=
 
-"statusline setup
-set statusline=%f       "tail of the filename
-
-"Git
+"statusline setup - filename, git, rvm
+set statusline=%f
 set statusline+=%{fugitive#statusline()}
-
-"RVM
 set statusline+=%{exists('g:loaded_rvm')?rvm#statusline():''}
 
 set statusline+=%=      "left/right separator

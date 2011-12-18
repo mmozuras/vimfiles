@@ -75,7 +75,6 @@ look for Luis Lavena's latest [Ruby Installer](http://rubyforge.org/projects/rub
 You may have problems because Command-T requires a native
 extension, so you will have to do this:
 
-    rvm use system # use this line if using rvm
     cd ~/.vim/bundle/Command-T/ruby/command-t
     ruby extconf.rb
     make
