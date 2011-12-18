@@ -134,3 +134,6 @@
 	path = bundle/Command-T
 	url = git://github.com/wincent/Command-T.git
         ignore = dirty
+[submodule "bundle/slim"]
+	path = bundle/slim
+	url = git://github.com/bbommarito/vim-slim.git
