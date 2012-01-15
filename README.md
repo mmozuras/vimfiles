@@ -8,7 +8,7 @@ It is recommended that you use [gVim](http://www.vim.org/download.php#pc) in eit
 * [bufexplorer](http://www.vim.org/scripts/script.php?script_id=42) - manage your file buffers
 * [camelcasemotion](http://www.vim.org/scripts/script.php?script_id=1905) - motions that help navigate CamelCased text
 * [coffee-script](https://github.com/kchmck/vim-coffee-script) - syntax highlight for Coffee Script
-* [Command-T](http://www.vim.org/scripts/script.php?script_id=3025) - the fastest and most intuitive way for opening files in your project
+* [ctrlp](https://github.com/kien/ctrlp.vim) - the fastest and most intuitive way for opening files in your project
 * [cucumber](http://www.vim.org/scripts/script.php?script_id=2973) - support for cucumber features such as syntax highlight, indentation, etc
 * [endwise](http://www.vim.org/scripts/script.php?script_id=2386) - support to close Ruby blocks such as 'if', 'do' with 'end'
 * [fugitive](http://www.vim.org/scripts/script.php?script_id=2975) - support for Git, adding convenient commands such as :Gstatus, :Gread, :Gmove
@@ -62,7 +62,7 @@ this file.
 
 You will need these dependencies figured out:
 
-* Ruby (for the fuzzy finder plugin)
+* Ruby
 * Ncurses-term (in Linux only)
 
 In Ubuntu, for example, you will have to do:
@@ -71,15 +71,6 @@ In Ubuntu, for example, you will have to do:
 
 Mac OS X and most Linux distros come with Ruby already. If you're on Windows
 look for Luis Lavena's latest [Ruby Installer](http://rubyforge.org/projects/rubyinstaller/).
-
-## Command-T
-
-You may have problems because Command-T requires a native
-extension, so you will have to do this:
-
-    cd ~/.vim/bundle/Command-T/ruby/command-t
-    ruby extconf.rb
-    make
 
 ## Learn Vim
 
@@ -93,5 +84,4 @@ Visit the following sites to learn more about Vim:
 
 * Original project and most of the heavy lifting: @scrooloose
 * All the cool plugins for Rails, Cucumber and more: @timpope
-* Great Command-T plugin by: Wincent
 * Hacks and some snippets: @akitaonrails
