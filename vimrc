@@ -28,6 +28,9 @@ set number      "add line numbers
 set showbreak=...
 set wrap linebreak nolist
 
+"enable statusline
+set laststatus=2
+
 "map <Leader> from \ to ,
 let mapleader = ","
 
@@ -65,16 +68,6 @@ set linespace=4
 
 "disable visual bell
 set visualbell t_vb=
-
-"statusline setup - filename, git
-set statusline=%f
-set statusline+=%{fugitive#statusline()}
-
-set statusline+=%=      "left/right separator
-set statusline+=%c,     "cursor column
-set statusline+=%l/%L   "cursor line/total lines
-set statusline+=\ %P    "percent through file
-set laststatus=2
 
 "turn off toolbar and menu bar on gvim/mvim
 set guioptions-=T

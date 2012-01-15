@@ -21,6 +21,7 @@ It is recommended that you use [gVim](http://www.vim.org/download.php#pc) in eit
 * [markdown](http://www.vim.org/scripts/script.php?script_id=1242) - syntax highlight for Markdown
 * [NERD-commenter](http://www.vim.org/scripts/script.php?script_id=1218) - support to comment lines of code
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332) - the magic souce that makes it super easy to install plugins
+* [powerline](http://https://github.com/Lokaltog/vim-powerline) - fills statusline with useful information
 * [preview](http://www.vim.org/scripts/script.php?script_id=3344) - [leader] P previews Markdown, Rdoc, Textile, html. Requires Ruby and other gems
 * [rails](http://www.vim.org/scripts/script.php?script_id=1567) - lot's of tools to make it easier to manage your Rails projects
 * [ruby](https://github.com/vim-ruby/vim-ruby/wiki) - syntax highlight, smart identation, auto-complete for Ruby
