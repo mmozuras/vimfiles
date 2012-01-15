@@ -18,10 +18,6 @@
 	path = bundle/surround
 	url = git://github.com/tpope/vim-surround.git
         ignore = dirty
-[submodule "bundle/NERD_commenter"]
-	path = bundle/NERD_commenter
-	url = git://github.com/scrooloose/nerdcommenter.git
-        ignore = dirty
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = git://github.com/tpope/vim-fugitive.git
@@ -141,4 +137,8 @@
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = git://github.com/kien/ctrlp.vim.git
+        ignore = dirty
+[submodule "bundle/tcomment"]
+	path = bundle/tcomment
+	url = git://github.com/tomtom/tcomment_vim.git
         ignore = dirty

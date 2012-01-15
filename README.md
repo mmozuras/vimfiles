@@ -19,7 +19,6 @@ It is recommended that you use [gVim](http://www.vim.org/download.php#pc) in eit
 * [jquery](https://github.com/itspriddle/vim-jquery) - Vim syntax file to add some colorations for jQuery keywords and css selectors
 * [less](https://github.com/groenewege/vim-less) - syntax highlight for Less
 * [markdown](http://www.vim.org/scripts/script.php?script_id=1242) - syntax highlight for Markdown
-* [NERD-commenter](http://www.vim.org/scripts/script.php?script_id=1218) - support to comment lines of code
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332) - the magic souce that makes it super easy to install plugins
 * [powerline](http://https://github.com/Lokaltog/vim-powerline) - fills statusline with useful information
 * [preview](http://www.vim.org/scripts/script.php?script_id=3344) - [leader] P previews Markdown, Rdoc, Textile, html. Requires Ruby and other gems
@@ -33,6 +32,7 @@ It is recommended that you use [gVim](http://www.vim.org/download.php#pc) in eit
 * [surround](http://www.vim.org/scripts/script.php?script_id=1697) - add, change, remove surrounding parentheses, brackets, quotes, etc
 * [syntastic](http://www.vim.org/scripts/script.php?script_id=2736) - checks for syntax errors in many languages
 * [stylus](https://github.com/wavded/vim-stylus) - syntax highlight for Stylus
+* [tcomment](https://github.com/tomtom/tcomment_vim) - support to comment lines of code
 * [textile](http://www.vim.org/scripts/script.php?script_id=2305) - syntax highlight for Textile
 * [textobj-rubyblock](http://vimcasts.org/blog/2010/12/a-text-object-for-ruby-blocks/) - smart block selection in Ruby code
 * [yankring](http://www.vim.org/scripts/script.php?script_id=1234) - maintains a history of yanks and deletes. History can be shared between multiple instances of vim
