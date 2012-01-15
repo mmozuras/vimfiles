@@ -116,9 +116,10 @@ set ttymouse=xterm2
 "hide buffers when not displayed
 set hidden
 
-"Command-T configuration
-let g:CommandTMaxHeight=15
-nnoremap <leader>t :CommandT<CR>
+"ctrlp configuration
+let g:ctrlp_max_height = 15
+nnoremap <leader>p :CtrlP<CR>
+nnoremap <leader>t :CtrlP<CR>
 
 colorscheme ir_black
 if has("gui_running")
