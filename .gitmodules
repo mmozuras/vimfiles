@@ -56,7 +56,7 @@
         ignore = dirty
 [submodule "bundle/scss-syntax"]
 	path = bundle/scss-syntax
-	url = http://github.com/cakebaker/scss-syntax.vim.git
+	url = git://github.com/cakebaker/scss-syntax.vim.git
         ignore = dirty
 [submodule "bundle/ack"]
 	path = bundle/ack
@@ -104,7 +104,7 @@
         ignore = dirty
 [submodule "bundle/gundo"]
 	path = bundle/gundo
-	url = http://github.com/sjl/gundo.vim.git
+	url = git://github.com/sjl/gundo.vim.git
         ignore = dirty
 [submodule "bundle/yankring"]
 	path = bundle/yankring
@@ -112,7 +112,7 @@
         ignore = dirty
 [submodule "bundle/less"]
 	path = bundle/less
-	url = https://github.com/groenewege/vim-less
+	url = git://github.com/groenewege/vim-less.git
         ignore = dirty
 [submodule "bundle/pathogen"]
 	path = bundle/pathogen
