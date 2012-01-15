@@ -4,6 +4,12 @@ runtime bundle/pathogen/autoload/pathogen.vim
 filetype on
 filetype off
 
+"powerline works poorly on windows vim
+let g:pathogen_disabled = []
+if !has("gui_running") && has("win32")
+    call add(g:pathogen_disabled, 'powerline')
+endif
+
 "load pathogen managed plugins
 call pathogen#infect()
 call pathogen#helptags()
