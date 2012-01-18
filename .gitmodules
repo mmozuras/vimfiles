@@ -70,10 +70,6 @@
 	path = bundle/ruby-sinatra
 	url = git://github.com/hallison/vim-ruby-sinatra.git
         ignore = dirty
-[submodule "bundle/securemodelines"]
-	path = bundle/securemodelines
-	url = git://github.com/ciaranm/securemodelines.git
-        ignore = dirty
 [submodule "bundle/textobj-user"]
 	path = bundle/textobj-user
 	url = git://github.com/kana/vim-textobj-user.git
