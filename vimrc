@@ -14,8 +14,8 @@ endif
 call pathogen#infect()
 call pathogen#helptags()
 
-"Use Vim settings, rather then Vi settings (much better!).
-"This must be first, because it changes other options as a side effect.
+"use Vim settings, rather then Vi settings
+"this must be first, because it changes other options as a side effect.
 set nocompatible
 
 "allow backspacing over everything in insert mode
@@ -41,19 +41,6 @@ set laststatus=2
 let mapleader = ","
 
 map <Leader><Leader> <C-^>
-
-"mapping for command key to map navigation thru display lines instead
-"of just numbered lines
-vmap <D-j> gj
-vmap <D-k> gk
-vmap <D-4> g$
-vmap <D-6> g^
-vmap <D-0> g^
-nmap <D-j> gj
-nmap <D-k> gk
-nmap <D-4> g$
-nmap <D-6> g^
-nmap <D-0> g^
 
 "map up/down arrow keys to unimpaired commands
 nmap <Up> [e
@@ -146,10 +133,6 @@ if has("gui_running")
     endif
 endif
 
-"make <c-l> clear the highlight as well as redraw
-nnoremap <C-L> :nohls<CR><C-L>
-inoremap <C-L> <C-O>:nohls<CR>
-
 "mark syntax errors with :signs
 let g:syntastic_enable_signs=1
 
@@ -178,9 +161,9 @@ function! <SID>StripTrailingWhitespaces()
     let _s=@/
     let l = line(".")
     let c = col(".")
-    " Do the business:
+    "do the business:
     %s/\s\+$//e
-    " Clean up: restore previous search history, and cursor position
+    "clean up: restore previous search history, and cursor position
     let @/=_s
     call cursor(l, c)
 endfunction
