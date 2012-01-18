@@ -14,7 +14,7 @@ It is recommended that you use [gVim](http://www.vim.org/download.php#pc) in eit
 * [fugitive](http://www.vim.org/scripts/script.php?script_id=2975) - support for Git, adding convenient commands such as :Gstatus, :Gread, :Gmove
 * [gundo](http://www.vim.org/scripts/script.php?script_id=3304) - visualizes undo tree
 * [haml](http://www.vim.org/scripts/script.php?script_id=1773) - syntax highlight for HAML
-* [html5.vim](https://github.com/othree/html5.vim) - omnicomplete function and syntax for HTML5
+* [html5](https://github.com/othree/html5.vim) - omnicomplete function and syntax for HTML5
 * [jade](https://github.com/digitaltoad/vim-jade) - syntax highlight for Jade
 * [jquery](https://github.com/itspriddle/vim-jquery) - Vim syntax file to add some colorations for jQuery keywords and css selectors
 * [less](https://github.com/groenewege/vim-less) - syntax highlight for Less
@@ -25,7 +25,6 @@ It is recommended that you use [gVim](http://www.vim.org/download.php#pc) in eit
 * [rails](http://www.vim.org/scripts/script.php?script_id=1567) - lot's of tools to make it easier to manage your Rails projects
 * [ruby](https://github.com/vim-ruby/vim-ruby/wiki) - syntax highlight, smart identation, auto-complete for Ruby
 * [ruby-sinatra](https://github.com/hallison/vim-ruby-sinatra) - syntax highlight for Sinatra
-* [securemodelines](http://www.vim.org/scripts/script.php?script_id=1876) - makes it harder to do something unsecure with modeline
 * [slim](https://github.com/bbommarito/vim-slim) - syntax highlight for Slim
 * [snipmate](https://github.com/akitaonrails/snipmate.vim) - support for textmate-like snippets for several languages
 * [supertab](http://www.vim.org/scripts/script.php?script_id=1643) - pseudo auto-complete with tab
