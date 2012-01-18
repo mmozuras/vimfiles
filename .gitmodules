@@ -149,3 +149,8 @@
 [submodule "bundle/indexed-search"]
 	path = bundle/indexed-search
 	url = git://github.com/henrik/vim-indexed-search.git
+        ignore = dirty
+[submodule "bundle/bufexplorer"]
+	path = bundle/bufexplorer
+	url = git://github.com/vim-scripts/bufexplorer.zip.git
+        ignore = dirty
