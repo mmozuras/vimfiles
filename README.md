@@ -5,6 +5,7 @@ It is recommended that you use [gVim](http://www.vim.org/download.php#pc) in eit
 # Bundled Plugins
 
 * [Ack](http://www.vim.org/scripts/script.php?script_id=2572) - type :Ack [search pattern] to search your entire project
+* [autoclose](https://github.com/vim-scripts/AutoClose) - automatically closes brackets and quotes
 * [bufexplorer](http://www.vim.org/scripts/script.php?script_id=42) - manage your file buffers
 * [camelcasemotion](http://www.vim.org/scripts/script.php?script_id=1905) - motions that help navigate CamelCased text
 * [coffee-script](https://github.com/kchmck/vim-coffee-script) - syntax highlight for Coffee Script
@@ -12,6 +13,7 @@ It is recommended that you use [gVim](http://www.vim.org/download.php#pc) in eit
 * [cucumber](http://www.vim.org/scripts/script.php?script_id=2973) - support for cucumber features such as syntax highlight, indentation, etc
 * [endwise](http://www.vim.org/scripts/script.php?script_id=2386) - support to close Ruby blocks such as 'if', 'do' with 'end'
 * [fugitive](http://www.vim.org/scripts/script.php?script_id=2975) - support for Git, adding convenient commands such as :Gstatus, :Gread, :Gmove
+* [grep](https://github.com/vim-scripts/grep.vim) - integrates the grep, fgrep, egrep, and agrep tools with Vim
 * [gundo](http://www.vim.org/scripts/script.php?script_id=3304) - visualizes undo tree
 * [haml](http://www.vim.org/scripts/script.php?script_id=1773) - syntax highlight for HAML
 * [html5](https://github.com/othree/html5.vim) - omnicomplete function and syntax for HTML5

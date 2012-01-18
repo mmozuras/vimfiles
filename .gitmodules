@@ -141,6 +141,11 @@
 [submodule "bundle/autoclose"]
 	path = bundle/autoclose
 	url = git://github.com/vim-scripts/AutoClose.git
+        ignore = dirty
 [submodule "bundle/grep"]
 	path = bundle/grep
 	url = git://github.com/vim-scripts/grep.vim.git
+        ignore = dirty
+[submodule "bundle/indexed-search"]
+	path = bundle/indexed-search
+	url = git://github.com/henrik/vim-indexed-search.git
