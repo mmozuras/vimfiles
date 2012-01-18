@@ -127,7 +127,7 @@ let g:ctrlp_max_height = 15
 nnoremap <leader>p :CtrlP<CR>
 nnoremap <leader>t :CtrlP<CR>
 
-colorscheme ir_black
+colorscheme molokai
 if has("gui_running")
     "tell the term has 256 colors
     set t_Co=256
