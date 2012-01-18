@@ -157,7 +157,7 @@ endfunction
 
 "strip trailing whitespace
 function! <SID>StripTrailingWhitespaces()
-    " Preparation: save last search, and cursor position.
+    "preparation: save last search, and cursor position.
     let _s=@/
     let l = line(".")
     let c = col(".")
@@ -177,5 +177,3 @@ map <C-l> <C-w>l
 
 "key mapping for saving file
 nmap <C-s> :w<CR>
-
-let ScreenShot = {'Icon':0, 'Credits':0, 'force_background':'#FFFFFF'}
