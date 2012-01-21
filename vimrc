@@ -1,8 +1,7 @@
 runtime bundle/pathogen/autoload/pathogen.vim
 
-"necessary on some Linux distros for pathogen to properly load bundles
-filetype on
-filetype off
+set nocompatible  "use Vim settings, rather than Vi
+filetype off      "required!
 
 "powerline works poorly on windows vim
 let g:pathogen_disabled = []
@@ -14,27 +13,22 @@ endif
 call pathogen#infect()
 call pathogen#helptags()
 
-"use Vim settings, rather then Vi settings. Must be first.
-set nocompatible
-
 "allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
-"store lots of :cmdline history
-set history=1000
+set history=1000  "store lots of :cmdline history
 
-set showcmd     "show incomplete cmds down the bottom
-set showmode    "show current mode down the bottom
+set showcmd       "show incomplete cmds down the bottom
+set showmode      "show current mode down the bottom
 
-set incsearch   "find the next match as we type the search
-set hlsearch    "hilight searches by default
+set incsearch     "find the next match as we type the search
+set hlsearch      "hilight searches by default
 
-set number      "add line numbers
+set number        "add line numbers
 set showbreak=...
 set wrap linebreak nolist
 
-"enable statusline
-set laststatus=2
+set laststatus=2  "enable statusline
 
 "map <Leader> from \ to ,
 let mapleader = ","
@@ -44,14 +38,12 @@ map <Leader><Leader> <C-^>
 "map up/down arrow keys to unimpaired commands
 nmap <Up> [e
 nmap <Down> ]e
-
 vmap <Up> [egv
 vmap <Down> ]egv
 
 "map left/right arrow keys to indendation
 nmap <Left> <<
 nmap <Right> >>
-
 vmap <Left> <gv
 vmap <Right> >gv
 
@@ -59,7 +51,7 @@ vmap <Right> >gv
 set linespace=4
 
 "disable visual bell
-set visualbell t_vb=
+set noerrorbells visualbell t_vb=
 
 "turn off toolbar and menu bar on gvim/mvim
 set guioptions-=T
@@ -77,7 +69,7 @@ set softtabstop=2
 set expandtab
 set autoindent
 
-set foldlevelstart=99   "remove folds
+set foldlevelstart=99       "remove folds
 
 set wildmode=list:longest   "make cmdline tab completion similar to bash
 set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
@@ -95,15 +87,11 @@ set sidescroll=1
 filetype plugin on
 filetype indent on
 
-"turn on syntax highlighting
-syntax on
+syntax on    "turn on syntax highlighting
 
-"some stuff to get the mouse going in term
-set mouse=a
-set ttymouse=xterm2
+set mouse=a  "mouse in all modes
 
-"hide buffers when not displayed
-set hidden
+set hidden   "hide buffers when not displayed
 
 "ctrlp configuration
 let g:ctrlp_max_height = 15
@@ -131,8 +119,7 @@ endif
 "mark syntax errors with :signs
 let g:syntastic_enable_signs=1
 
-"jump to last cursor position when opening a file
-"dont do it when writing a commit log entry
+"go to last position when opening a file, but now when writing commit log entry
 autocmd BufReadPost * call SetCursorPosition()
 function! SetCursorPosition()
     if &filetype !~ 'commit\c'
@@ -151,17 +138,8 @@ function! <SID>StripTrailingWhitespaces()
     let c = col(".")
     "do the business:
     %s/\s\+$//e
-    "clean up: restore previous search history, and cursor position
+    "restore previous search history, and cursor position
     let @/=_s
     call cursor(l, c)
 endfunction
 autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
-
-"key mapping for window navigation
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-l> <C-w>l
-
-"key mapping for saving file
-nmap <C-s> :w<CR>
