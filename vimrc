@@ -14,8 +14,7 @@ endif
 call pathogen#infect()
 call pathogen#helptags()
 
-"use Vim settings, rather then Vi settings
-"this must be first, because it changes other options as a side effect.
+"use Vim settings, rather then Vi settings. Must be first.
 set nocompatible
 
 "allow backspacing over everything in insert mode
@@ -78,10 +77,7 @@ set softtabstop=2
 set expandtab
 set autoindent
 
-"folding settings
-set foldmethod=indent   "fold based on indent
-set foldnestmax=3       "deepest fold is 3 levels
-set nofoldenable        "dont fold by default
+set foldlevelstart=99   "remove folds
 
 set wildmode=list:longest   "make cmdline tab completion similar to bash
 set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
@@ -119,9 +115,8 @@ if has("gui_running")
     "tell the term has 256 colors
     set t_Co=256
 
-    set guitablabel=%M%t
-    set lines=40
-    set columns=115
+    set lines=60
+    set columns=120
 
     if has("gui_gnome")
         set guifont=Monospace\ Bold\ 11
@@ -135,13 +130,6 @@ endif
 
 "mark syntax errors with :signs
 let g:syntastic_enable_signs=1
-
-"snipmate setup
-try
-  source ~/.vim/snippets/support_functions.vim
-catch
-  source ~/vimfiles/snippets/support_functions.vim
-endtry
 
 "jump to last cursor position when opening a file
 "dont do it when writing a commit log entry
