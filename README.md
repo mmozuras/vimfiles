@@ -4,7 +4,7 @@ It is recommended that you use [gVim](http://www.vim.org/download.php#pc) in eit
 
 # Bundled Plugins
 
-* [Ack](http://www.vim.org/scripts/script.php?script_id=2572) - type :Ack [search pattern] to search your entire project
+* [ack](http://www.vim.org/scripts/script.php?script_id=2572) - type :Ack [search pattern] to search your entire project
 * [autoclose](https://github.com/vim-scripts/AutoClose) - automatically closes brackets and quotes
 * [bufexplorer](http://www.vim.org/scripts/script.php?script_id=42) - manage your file buffers
 * [camelcasemotion](http://www.vim.org/scripts/script.php?script_id=1905) - motions that help navigate CamelCased text
@@ -34,7 +34,6 @@ It is recommended that you use [gVim](http://www.vim.org/download.php#pc) in eit
 * [stylus](https://github.com/wavded/vim-stylus) - syntax highlight for Stylus
 * [tcomment](https://github.com/tomtom/tcomment_vim) - support to comment lines of code
 * [textile](http://www.vim.org/scripts/script.php?script_id=2305) - syntax highlight for Textile
-* [textobj-rubyblock](http://vimcasts.org/blog/2010/12/a-text-object-for-ruby-blocks/) - smart block selection in Ruby code
 * [yankring](http://www.vim.org/scripts/script.php?script_id=1234) - maintains a history of yanks and deletes. History can be shared between multiple instances of vim
 
 # Usage
@@ -57,20 +56,6 @@ the following line inside:
 
 This way you can override the default configuration by adding your own inside
 this file.
-
-# Dependencies
-
-You will need these dependencies figured out:
-
-* Ruby
-* Ncurses-term (in Linux only)
-
-In Ubuntu, for example, you will have to do:
-
-    apt-get install ncurses-term
-
-Mac OS X and most Linux distros come with Ruby already. If you're on Windows
-look for Luis Lavena's latest [Ruby Installer](http://rubyforge.org/projects/rubyinstaller/).
 
 ## Learn Vim
 
