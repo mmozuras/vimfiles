@@ -58,10 +58,6 @@
 	path = bundle/supertab
 	url = git://github.com/ervandew/supertab.git
         ignore = dirty
-[submodule "bundle/ruby-sinatra"]
-	path = bundle/ruby-sinatra
-	url = git://github.com/hallison/vim-ruby-sinatra.git
-        ignore = dirty
 [submodule "bundle/textobj-user"]
 	path = bundle/textobj-user
 	url = git://github.com/kana/vim-textobj-user.git
@@ -73,10 +69,6 @@
 [submodule "bundle/preview"]
 	path = bundle/preview
 	url = git://github.com/greyblake/vim-preview.git
-        ignore = dirty
-[submodule "bundle/colors-solarized"]
-	path = bundle/colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
         ignore = dirty
 [submodule "bundle/jquery"]
 	path = bundle/jquery
@@ -149,12 +141,16 @@
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = git://github.com/garbas/vim-snipmate.git
+        ignore = dirty
 [submodule "bundle/tlib_vim"]
 	path = bundle/tlib_vim
 	url = git://github.com/tomtom/tlib_vim.git
+        ignore = dirty
 [submodule "bundle/addon_mw_utils_git"]
 	path = bundle/addon_mw_utils_git
 	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
+        ignore = dirty
 [submodule "bundle/snipmate-snippets"]
 	path = bundle/snipmate-snippets
 	url = git://github.com/honza/snipmate-snippets.git
+        ignore = dirty

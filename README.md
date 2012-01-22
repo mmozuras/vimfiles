@@ -26,7 +26,6 @@ It is recommended that you use [gVim](http://www.vim.org/download.php#pc) in eit
 * [preview](http://www.vim.org/scripts/script.php?script_id=3344) - [leader] P previews Markdown, Rdoc, Textile, html. Requires Ruby and other gems
 * [rails](http://www.vim.org/scripts/script.php?script_id=1567) - lot's of tools to make it easier to manage your Rails projects
 * [ruby](https://github.com/vim-ruby/vim-ruby/wiki) - syntax highlight, smart identation, auto-complete for Ruby
-* [ruby-sinatra](https://github.com/hallison/vim-ruby-sinatra) - syntax highlight for Sinatra
 * [slim](https://github.com/bbommarito/vim-slim) - syntax highlight for Slim
 * [snipmate](https://github.com/akitaonrails/snipmate.vim) - support for textmate-like snippets for several languages
 * [supertab](http://www.vim.org/scripts/script.php?script_id=1643) - pseudo auto-complete with tab
