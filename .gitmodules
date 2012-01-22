@@ -58,14 +58,6 @@
 	path = bundle/supertab
 	url = git://github.com/ervandew/supertab.git
         ignore = dirty
-[submodule "bundle/textobj-user"]
-	path = bundle/textobj-user
-	url = git://github.com/kana/vim-textobj-user.git
-        ignore = dirty
-[submodule "bundle/textobj-rubybloc"]
-	path = bundle/textobj-rubybloc
-	url = git://github.com/nelstrom/vim-textobj-rubyblock.git
-        ignore = dirty
 [submodule "bundle/preview"]
 	path = bundle/preview
 	url = git://github.com/greyblake/vim-preview.git
