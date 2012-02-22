@@ -67,15 +67,9 @@ set scrolloff=3
 set sidescrolloff=7
 set sidescroll=1
 
-let g:syntastic_enable_signs=1 "mark syntax errors with :signs
-
 let mapleader = ","            "map <Leader> from \ to ,
 
 map <Leader><Leader> <C-^>
-map <Leader>u :GundoToggle<CR>
-map <Leader>b :LustyJuggler<CR>
-
-let g:LustyJugglerSuppressRubyWarning = 1
 
 "map up/down arrow keys to unimpaired commands
 nmap <Up> [e
@@ -88,9 +82,6 @@ nmap <Left> <<
 nmap <Right> >>
 vmap <Left> <gv
 vmap <Right> >gv
-
-
-let g:Powerline_symbols = 'fancy'
 
 colorscheme molokai
 if has("gui_running")
