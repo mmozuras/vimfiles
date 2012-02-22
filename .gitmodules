@@ -2,10 +2,6 @@
 	path = bundle/rails
 	url = git://github.com/tpope/vim-rails.git
         ignore = dirty
-[submodule "bundle/cucumber"]
-	path = bundle/cucumber
-	url = git://github.com/tpope/vim-cucumber.git
-        ignore = dirty
 [submodule "bundle/haml"]
 	path = bundle/haml
 	url = git://github.com/tpope/vim-haml.git
@@ -145,3 +141,4 @@
 [submodule "bundle/lusty-juggler"]
 	path = bundle/lusty-juggler
 	url = git://github.com/vim-scripts/LustyJuggler.git
+        ignore = dirty
