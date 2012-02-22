@@ -6,7 +6,6 @@ It is recommended that you use [gVim](http://www.vim.org/download.php#pc) in eit
 
 * [ack](http://www.vim.org/scripts/script.php?script_id=2572) - type :Ack [search pattern] to search your entire project
 * [autoclose](https://github.com/vim-scripts/AutoClose) - automatically closes brackets and quotes
-* [bufexplorer](http://www.vim.org/scripts/script.php?script_id=42) - manage your file buffers
 * [camelcasemotion](http://www.vim.org/scripts/script.php?script_id=1905) - motions that help navigate CamelCased text
 * [coffee-script](https://github.com/kchmck/vim-coffee-script) - syntax highlight for Coffee Script
 * [ctrlp](https://github.com/kien/ctrlp.vim) - the fastest and most intuitive way for opening files in your project
@@ -20,6 +19,7 @@ It is recommended that you use [gVim](http://www.vim.org/download.php#pc) in eit
 * [jade](https://github.com/digitaltoad/vim-jade) - syntax highlight for Jade
 * [jquery](https://github.com/itspriddle/vim-jquery) - Vim syntax file to add some colorations for jQuery keywords and css selectors
 * [less](https://github.com/groenewege/vim-less) - syntax highlight for Less
+* [lusty-juggler](http://www.vim.org/scripts/script.php?script_id=2050) - manage your file buffers
 * [markdown](http://www.vim.org/scripts/script.php?script_id=1242) - syntax highlight for Markdown
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332) - the magic souce that makes it super easy to install plugins
 * [powerline](http://https://github.com/Lokaltog/vim-powerline) - fills statusline with useful information

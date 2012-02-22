@@ -73,6 +73,9 @@ let mapleader = ","            "map <Leader> from \ to ,
 
 map <Leader><Leader> <C-^>
 map <Leader>u :GundoToggle<CR>
+map <Leader>b :LustyJuggler<CR>
+
+let g:LustyJugglerSuppressRubyWarning = 1
 
 "map up/down arrow keys to unimpaired commands
 nmap <Up> [e

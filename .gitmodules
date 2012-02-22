@@ -126,10 +126,6 @@
 	path = bundle/indexed-search
 	url = git://github.com/henrik/vim-indexed-search.git
         ignore = dirty
-[submodule "bundle/bufexplorer"]
-	path = bundle/bufexplorer
-	url = git://github.com/vim-scripts/bufexplorer.zip.git
-        ignore = dirty
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = git://github.com/garbas/vim-snipmate.git
@@ -146,3 +142,6 @@
 	path = bundle/snipmate-snippets
 	url = git://github.com/honza/snipmate-snippets.git
         ignore = dirty
+[submodule "bundle/lusty-juggler"]
+	path = bundle/lusty-juggler
+	url = git://github.com/vim-scripts/LustyJuggler.git
