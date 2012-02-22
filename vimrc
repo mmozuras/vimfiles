@@ -89,10 +89,6 @@ nmap <Right> >>
 vmap <Left> <gv
 vmap <Right> >gv
 
-"ctrlp configuration
-let g:ctrlp_max_height = 15
-nnoremap <leader>p :CtrlP<CR>
-nnoremap <leader>t :CtrlP<CR>
 
 let g:Powerline_symbols = 'fancy'
 
