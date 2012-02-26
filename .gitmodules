@@ -42,10 +42,6 @@
 	path = bundle/coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
         ignore = dirty
-[submodule "bundle/supertab"]
-	path = bundle/supertab
-	url = git://github.com/ervandew/supertab.git
-        ignore = dirty
 [submodule "bundle/preview"]
 	path = bundle/preview
 	url = git://github.com/greyblake/vim-preview.git
