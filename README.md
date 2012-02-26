@@ -39,6 +39,7 @@ Some people that inspired my .vim:
 * [Tim Pope](https://github.com/tpope)
 * [Fabio Akita](https://github.com/akitaonrails)
 * [Jeremy Mack](https://github.com/mutewinter)
+* [Yan Pritzker](https://github.com/skwp)
 
 ## Plugin List
 
