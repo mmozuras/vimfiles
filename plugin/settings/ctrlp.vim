@@ -5,4 +5,3 @@ let g:ctrlp_max_height = 15
 " Mappings
 let g:ctrlp_map = ',t'
 nnoremap <C-b> :CtrlPBuffer<CR>
-nnoremap <silent> <D-P> :ClearCtrlPCache<CR>

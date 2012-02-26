@@ -59,13 +59,13 @@ Some people that inspired my .vim:
 * [less](https://github.com/groenewege/vim-less) - syntax highlight for Less
 * [lusty-juggler](http://www.vim.org/scripts/script.php?script_id=2050) - manage your file buffers
 * [markdown](http://www.vim.org/scripts/script.php?script_id=1242) - syntax highlight for Markdown
+* [neocomplcache](neocomplcach://github.com/Shougo/neocomplcachec) - ultimate auto-completion system
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332) - the magic souce that makes it super easy to install plugins
 * [powerline](http://https://github.com/Lokaltog/vim-powerline) - fills statusline with useful information
 * [preview](http://www.vim.org/scripts/script.php?script_id=3344) - [leader] P previews Markdown, Rdoc, Textile, html. Requires Ruby and other gems
 * [ruby](https://github.com/vim-ruby/vim-ruby/wiki) - syntax highlight, smart identation, auto-complete for Ruby
 * [slim](https://github.com/bbommarito/vim-slim) - syntax highlight for Slim
 * [snipmate](https://github.com/akitaonrails/snipmate.vim) - support for textmate-like snippets for several languages
-* [supertab](http://www.vim.org/scripts/script.php?script_id=1643) - pseudo auto-complete with tab
 * [surround](http://www.vim.org/scripts/script.php?script_id=1697) - add, change, remove surrounding parentheses, brackets, quotes, etc
 * [syntastic](http://www.vim.org/scripts/script.php?script_id=2736) - checks for syntax errors in many languages
 * [stylus](https://github.com/wavded/vim-stylus) - syntax highlight for Stylus
