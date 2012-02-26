@@ -27,13 +27,14 @@ this file.
 
 Visit the following sites to learn more about Vim:
 
+* [vim.org](http://www.vim.org/)
 * [Vimcasts](http://vimcasts.org)
 * [Derek Wyatt's videos](http://www.derekwyatt.org/vim/vim-tutorial-videos/)
 * [VimGolf](http://vimgolf.com/)
 
 ## Credits
 
-Some people that inspired my .vim:
+Some of the people that inspired my .vim:
 
 * [Martin Grenfell](https://github.com/scrooloose)
 * [Tim Pope](https://github.com/tpope)
