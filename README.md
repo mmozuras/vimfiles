@@ -14,7 +14,6 @@ It is recommended that you use [gVim](http://www.vim.org/download.php#pc) in eit
 * [fugitive](http://www.vim.org/scripts/script.php?script_id=2975) - support for Git, adding convenient commands such as :Gstatus, :Gread, :Gmove
 * [grep](https://github.com/vim-scripts/grep.vim) - integrates the grep, fgrep, egrep, and agrep tools with Vim
 * [gundo](http://www.vim.org/scripts/script.php?script_id=3304) - visualizes undo tree
-* [haml](http://www.vim.org/scripts/script.php?script_id=1773) - syntax highlight for HAML
 * [html5](https://github.com/othree/html5.vim) - omnicomplete function and syntax for HTML5
 * [jade](https://github.com/digitaltoad/vim-jade) - syntax highlight for Jade
 * [jquery](https://github.com/itspriddle/vim-jquery) - Vim syntax file to add some colorations for jQuery keywords and css selectors
@@ -24,7 +23,6 @@ It is recommended that you use [gVim](http://www.vim.org/download.php#pc) in eit
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332) - the magic souce that makes it super easy to install plugins
 * [powerline](http://https://github.com/Lokaltog/vim-powerline) - fills statusline with useful information
 * [preview](http://www.vim.org/scripts/script.php?script_id=3344) - [leader] P previews Markdown, Rdoc, Textile, html. Requires Ruby and other gems
-* [rails](http://www.vim.org/scripts/script.php?script_id=1567) - lot's of tools to make it easier to manage your Rails projects
 * [ruby](https://github.com/vim-ruby/vim-ruby/wiki) - syntax highlight, smart identation, auto-complete for Ruby
 * [slim](https://github.com/bbommarito/vim-slim) - syntax highlight for Slim
 * [snipmate](https://github.com/akitaonrails/snipmate.vim) - support for textmate-like snippets for several languages
