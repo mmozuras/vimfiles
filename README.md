@@ -41,7 +41,8 @@ Some of the people that inspired my .vim:
 * [Fabio Akita](https://github.com/akitaonrails)
 * [Jeremy Mack](https://github.com/mutewinter)
 * [Yan Pritzker](https://github.com/skwp)
-* [Vimbits](http://vimbits.com)
+
+Also check out [Vimbits](http://vimbits.com) for a ton of great vimrc snippets.
 
 ## Plugin List
 
