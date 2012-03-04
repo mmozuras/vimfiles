@@ -13,7 +13,6 @@ call pathogen#infect()
 call pathogen#helptags()
 
 set backspace=indent,eol,start "allow backspacing over everything in insert mode
-set history=1000               "store lots of :cmdline history
 
 set showcmd                    "show incomplete cmds down the bottom
 set showmode                   "show current mode down the bottom
@@ -70,6 +69,15 @@ set sidescroll=1
 let mapleader = ","            "map <Leader> from \ to ,
 
 map <Leader><Leader> <C-^>
+
+inoremap jk <Esc>
+inoremap kj <Esc>
+
+nnoremap + <C-a>
+nnoremap - <C-x>
+
+"toggle invisibles
+noremap <Leader>i :set list!<CR>
 
 "map up/down arrow keys to unimpaired commands
 nmap <Up> [e
