@@ -1,5 +1,5 @@
 " Configuration
-let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
+let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$\|\.swp$\|node_modules$'
 let g:ctrlp_max_height = 15
 
 " Mappings
