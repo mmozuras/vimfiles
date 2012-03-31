@@ -47,7 +47,6 @@ Also check out [Vimbits](http://vimbits.com) for a ton of great vimrc snippets.
 ## Plugin List
 
 * [ack](http://www.vim.org/scripts/script.php?script_id=2572) - type :Ack [search pattern] to search your entire project
-* [autoclose](https://github.com/vim-scripts/AutoClose) - automatically closes brackets and quotes
 * [camelcasemotion](http://www.vim.org/scripts/script.php?script_id=1905) - motions that help navigate CamelCased text
 * [coffee-script](https://github.com/kchmck/vim-coffee-script) - syntax highlight for Coffee Script
 * [ctrlp](https://github.com/kien/ctrlp.vim) - the fastest and most intuitive way for opening files in your project
@@ -68,6 +67,7 @@ Also check out [Vimbits](http://vimbits.com) for a ton of great vimrc snippets.
 * [preview](http://www.vim.org/scripts/script.php?script_id=3344) - [leader] P previews Markdown, Rdoc, Textile, html. Requires Ruby and other gems
 * [ruby](https://github.com/vim-ruby/vim-ruby/wiki) - syntax highlight, smart identation, auto-complete for Ruby
 * [slim](https://github.com/bbommarito/vim-slim) - syntax highlight for Slim
+* [smartinput](https://github.com/kana/vim-smartinput) - automatically closes brackets and quotes
 * [snipmate](https://github.com/akitaonrails/snipmate.vim) - support for textmate-like snippets for several languages
 * [surround](http://www.vim.org/scripts/script.php?script_id=1697) - add, change, remove surrounding parentheses, brackets, quotes, etc
 * [syntastic](http://www.vim.org/scripts/script.php?script_id=2736) - checks for syntax errors in many languages
