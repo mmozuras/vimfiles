@@ -98,10 +98,6 @@
 	path = bundle/tcomment
 	url = git://github.com/tomtom/tcomment_vim.git
         ignore = dirty
-[submodule "bundle/autoclose"]
-	path = bundle/autoclose
-	url = git://github.com/vim-scripts/AutoClose.git
-        ignore = dirty
 [submodule "bundle/grep"]
 	path = bundle/grep
 	url = git://github.com/vim-scripts/grep.vim.git
@@ -133,3 +129,4 @@
 [submodule "bundle/neocomplcache"]
 	path = bundle/neocomplcache
 	url = git://github.com/Shougo/neocomplcache.git
+        ignore = dirty
