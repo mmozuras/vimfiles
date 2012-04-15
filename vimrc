@@ -67,6 +67,7 @@ set sidescrolloff=7
 set sidescroll=1
 
 let mapleader = ","            "map <Leader> from \ to ,
+let maplocalleader = "/"       "map <LocalLeader> to \
 
 map <Leader><Leader> <C-^>
 

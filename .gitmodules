@@ -130,3 +130,7 @@
 	path = bundle/smartinput
 	url = git://github.com/kana/vim-smartinput.git
         ignore = dirty
+[submodule "bundle/clam"]
+	path = bundle/clam
+	url = git://github.com/sjl/clam.vim.git
+        ignore = dirty
