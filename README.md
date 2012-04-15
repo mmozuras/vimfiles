@@ -53,7 +53,6 @@ Also check out [Vimbits](http://vimbits.com) for a ton of great vimrc snippets.
 * [cucumber](http://www.vim.org/scripts/script.php?script_id=2973) - support for cucumber features such as syntax highlight, indentation, etc
 * [endwise](http://www.vim.org/scripts/script.php?script_id=2386) - support to close Ruby blocks such as 'if', 'do' with 'end'
 * [fugitive](http://www.vim.org/scripts/script.php?script_id=2975) - support for Git, adding convenient commands such as :Gstatus, :Gread, :Gmove
-* [grep](https://github.com/vim-scripts/grep.vim) - integrates the grep, fgrep, egrep, and agrep tools with Vim
 * [gundo](http://www.vim.org/scripts/script.php?script_id=3304) - visualizes undo tree
 * [html5](https://github.com/othree/html5.vim) - omnicomplete function and syntax for HTML5
 * [jade](https://github.com/digitaltoad/vim-jade) - syntax highlight for Jade
