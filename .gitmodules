@@ -46,10 +46,6 @@
 	path = bundle/preview
 	url = git://github.com/greyblake/vim-preview.git
         ignore = dirty
-[submodule "bundle/jquery"]
-	path = bundle/jquery
-	url = git://github.com/itspriddle/vim-jquery.git
-        ignore = dirty
 [submodule "bundle/html5"]
 	path = bundle/html5
 	url = git://github.com/othree/html5.vim.git

@@ -57,7 +57,6 @@ Also check out [Vimbits](http://vimbits.com) for a ton of great vimrc snippets.
 * [gundo](http://www.vim.org/scripts/script.php?script_id=3304) - visualizes undo tree
 * [html5](https://github.com/othree/html5.vim) - omnicomplete function and syntax for HTML5
 * [jade](https://github.com/digitaltoad/vim-jade) - syntax highlight for Jade
-* [jquery](https://github.com/itspriddle/vim-jquery) - Vim syntax file to add some colorations for jQuery keywords and css selectors
 * [less](https://github.com/groenewege/vim-less) - syntax highlight for Less
 * [lusty-juggler](http://www.vim.org/scripts/script.php?script_id=2050) - manage your file buffers
 * [markdown](http://www.vim.org/scripts/script.php?script_id=1242) - syntax highlight for Markdown
