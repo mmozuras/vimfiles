@@ -46,7 +46,6 @@ Also check out [Vimbits](http://vimbits.com) for a ton of great vimrc snippets.
 
 ## Plugin List
 
-* [ack](http://www.vim.org/scripts/script.php?script_id=2572) - type :Ack [search pattern] to search your entire project
 * [camelcasemotion](http://www.vim.org/scripts/script.php?script_id=1905) - motions that help navigate CamelCased text
 * [clam](https://github.com/sjl/clam.vim) - easily run shell commands from Vim
 * [coffee-script](https://github.com/kchmck/vim-coffee-script) - syntax highlight for Coffee Script

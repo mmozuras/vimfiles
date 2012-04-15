@@ -34,10 +34,6 @@
 	path = bundle/scss
 	url = git://github.com/cakebaker/scss-syntax.vim.git
         ignore = dirty
-[submodule "bundle/ack"]
-	path = bundle/ack
-	url = git://github.com/mileszs/ack.vim.git
-        ignore = dirty
 [submodule "bundle/coffee-script"]
 	path = bundle/coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
