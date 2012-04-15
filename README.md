@@ -71,5 +71,4 @@ Also check out [Vimbits](http://vimbits.com) for a ton of great vimrc snippets.
 * [syntastic](http://www.vim.org/scripts/script.php?script_id=2736) - checks for syntax errors in many languages
 * [stylus](https://github.com/wavded/vim-stylus) - syntax highlight for Stylus
 * [tcomment](https://github.com/tomtom/tcomment_vim) - support to comment lines of code
-* [textile](http://www.vim.org/scripts/script.php?script_id=2305) - syntax highlight for Textile
 * [yankring](http://www.vim.org/scripts/script.php?script_id=1234) - maintains a history of yanks and deletes. History can be shared between multiple instances of vim

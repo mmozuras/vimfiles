@@ -18,10 +18,6 @@
 	path = bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
         ignore = dirty
-[submodule "bundle/textile"]
-	path = bundle/textile
-	url = git://github.com/timcharper/textile.vim.git
-        ignore = dirty
 [submodule "bundle/ruby"]
 	path = bundle/ruby
 	url = git://github.com/vim-ruby/vim-ruby.git
