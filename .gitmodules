@@ -122,3 +122,6 @@
 	path = bundle/clam
 	url = git://github.com/sjl/clam.vim.git
         ignore = dirty
+[submodule "bundle/snipmate-mocha"]
+	path = bundle/snipmate-mocha
+	url = git://github.com/mmozuras/snipmate-mocha.git
