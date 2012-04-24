@@ -125,3 +125,6 @@
 [submodule "bundle/snipmate-mocha"]
 	path = bundle/snipmate-mocha
 	url = git://github.com/mmozuras/snipmate-mocha.git
+[submodule "bundle/snipmate-shouldjs"]
+	path = bundle/snipmate-shouldjs
+	url = git://github.com/mmozuras/snipmate-shouldjs.git
