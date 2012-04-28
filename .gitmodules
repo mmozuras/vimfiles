@@ -58,10 +58,6 @@
 	path = bundle/pathogen
 	url = git://github.com/tpope/vim-pathogen.git
         ignore = dirty
-[submodule "bundle/camelcasemotion"]
-	path = bundle/camelcasemotion
-	url = git://github.com/vim-scripts/camelcasemotion.git
-        ignore = dirty
 [submodule "bundle/jade"]
 	path = bundle/jade
 	url = git://github.com/digitaltoad/vim-jade.git
@@ -125,6 +121,8 @@
 [submodule "bundle/snipmate-mocha"]
 	path = bundle/snipmate-mocha
 	url = git://github.com/mmozuras/snipmate-mocha.git
+        ignore = dirty
 [submodule "bundle/snipmate-shouldjs"]
 	path = bundle/snipmate-shouldjs
 	url = git://github.com/mmozuras/snipmate-shouldjs.git
+        ignore = dirty
