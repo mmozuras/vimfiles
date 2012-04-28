@@ -102,3 +102,21 @@
 	path = bundle/clam
 	url = git://github.com/sjl/clam.vim.git
         ignore = dirty
+[submodule "snipmate/snipmate"]
+	path = snipmate/snipmate
+	url = git://github.com/garbas/vim-snipmate.git
+[submodule "snipmate/tlib_vim"]
+	path = snipmate/tlib_vim
+	url = git://github.com/tomtom/tlib_vim.git
+[submodule "snipmate/addon-mw-utils"]
+	path = snipmate/addon-mw-utils
+	url = git://github.com/MarcWeber/vim-addon-mw-utils
+[submodule "snipmate/snipmate-snippets"]
+	path = snipmate/snipmate-snippets
+	url = git://github.com/honza/snipmate-snippets
+[submodule "snipmate/snipmate-mocha"]
+	path = snipmate/snipmate-mocha
+	url = git://github.com/mmozuras/snipmate-mocha.git
+[submodule "snipmate/snipmate-shouldjs"]
+	path = snipmate/snipmate-shouldjs
+	url = git://github.com/mmozuras/snipmate-shouldjs.git
