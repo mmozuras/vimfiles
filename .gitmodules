@@ -86,22 +86,6 @@
 	path = bundle/indexed-search
 	url = git://github.com/henrik/vim-indexed-search.git
         ignore = dirty
-[submodule "bundle/snipmate"]
-	path = bundle/snipmate
-	url = git://github.com/garbas/vim-snipmate.git
-        ignore = dirty
-[submodule "bundle/tlib_vim"]
-	path = bundle/tlib_vim
-	url = git://github.com/tomtom/tlib_vim.git
-        ignore = dirty
-[submodule "bundle/addon_mw_utils_git"]
-	path = bundle/addon_mw_utils_git
-	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
-        ignore = dirty
-[submodule "bundle/snipmate-snippets"]
-	path = bundle/snipmate-snippets
-	url = git://github.com/honza/snipmate-snippets.git
-        ignore = dirty
 [submodule "bundle/lusty-juggler"]
 	path = bundle/lusty-juggler
 	url = git://github.com/vim-scripts/LustyJuggler.git
@@ -117,12 +101,4 @@
 [submodule "bundle/clam"]
 	path = bundle/clam
 	url = git://github.com/sjl/clam.vim.git
-        ignore = dirty
-[submodule "bundle/snipmate-mocha"]
-	path = bundle/snipmate-mocha
-	url = git://github.com/mmozuras/snipmate-mocha.git
-        ignore = dirty
-[submodule "bundle/snipmate-shouldjs"]
-	path = bundle/snipmate-shouldjs
-	url = git://github.com/mmozuras/snipmate-shouldjs.git
         ignore = dirty
