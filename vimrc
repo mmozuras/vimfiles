@@ -78,9 +78,6 @@ inoremap kj <Esc>
 nnoremap + <C-a>
 nnoremap - <C-x>
 
-"toggle invisibles
-noremap <Leader>i :set list!<CR>
-
 "map up/down arrow keys to unimpaired commands
 nmap <Up> [e
 nmap <Down> ]e

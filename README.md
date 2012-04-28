@@ -65,7 +65,7 @@ Also check out [Vimbits](http://vimbits.com) for a ton of great vimrc snippets.
 * [ruby](https://github.com/vim-ruby/vim-ruby/wiki) - syntax highlight, smart identation, auto-complete for Ruby
 * [slim](https://github.com/bbommarito/vim-slim) - syntax highlight for Slim
 * [smartinput](https://github.com/kana/vim-smartinput) - automatically closes brackets and quotes
-* [snipmate](https://github.com/akitaonrails/snipmate.vim) - support for textmate-like snippets for several languages
+* [snipmate](https://github.com/akitaonrails/snipmate.vim) - support for textmate-like snippets. Snipmate and snippets for it is in snipmate/ folder.
 * [surround](http://www.vim.org/scripts/script.php?script_id=1697) - add, change, remove surrounding parentheses, brackets, quotes, etc
 * [syntastic](http://www.vim.org/scripts/script.php?script_id=2736) - checks for syntax errors in many languages
 * [stylus](https://github.com/wavded/vim-stylus) - syntax highlight for Stylus
