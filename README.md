@@ -7,7 +7,7 @@ It is recommended that you use [gVim](http://www.vim.org/download.php#pc) in eit
 Clone this repo into your home directory either as .vim (linux/mac) or
 vimfiles (Windows). Such as:
 
-    git clone --recursive git://github.com/akitaonrails/vimfiles.git ~/.vim
+    git clone --recursive git://github.com/mmozuras/vimfiles.git ~/.vim
 
 Now you should create a new <tt>.vimrc</tt> file in your home directory that
 loads the pre-configured one that comes bundled in this package. You can do it
