@@ -120,3 +120,6 @@
 [submodule "snipmate/snipmate-shouldjs"]
 	path = snipmate/snipmate-shouldjs
 	url = git://github.com/mmozuras/snipmate-shouldjs.git
+[submodule "bundle/molokai"]
+	path = bundle/molokai
+	url = git://github.com/tomasr/molokai.git
