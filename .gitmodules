@@ -22,7 +22,7 @@
 	path = bundle/ruby
 	url = git://github.com/vim-ruby/vim-ruby.git
         ignore = dirty
-[submodule "bundle/unimpaired"]
+[submodule "bundle/unimpairedunimpaired"]
 	path = bundle/unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
         ignore = dirty
@@ -45,10 +45,6 @@
 [submodule "bundle/gundo"]
 	path = bundle/gundo
 	url = git://github.com/sjl/gundo.vim.git
-        ignore = dirty
-[submodule "bundle/yankring"]
-	path = bundle/yankring
-	url = git://github.com/chrismetcalf/vim-yankring.git
         ignore = dirty
 [submodule "bundle/less"]
 	path = bundle/less
