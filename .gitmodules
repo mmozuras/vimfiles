@@ -46,10 +46,6 @@
 	path = bundle/gundo
 	url = git://github.com/sjl/gundo.vim.git
         ignore = dirty
-[submodule "bundle/less"]
-	path = bundle/less
-	url = git://github.com/groenewege/vim-less.git
-        ignore = dirty
 [submodule "bundle/pathogen"]
 	path = bundle/pathogen
 	url = git://github.com/tpope/vim-pathogen.git

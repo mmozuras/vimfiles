@@ -69,7 +69,6 @@ Also check out [Vimbits](http://vimbits.com) for a ton of great vimrc snippets.
 * [coffee-script](https://github.com/kchmck/vim-coffee-script) - syntax highlight for Coffee Script
 * [html5](https://github.com/othree/html5.vim) - omnicomplete function and syntax for HTML5
 * [jade](https://github.com/digitaltoad/vim-jade) - syntax highlight for Jade
-* [less](https://github.com/groenewege/vim-less) - syntax highlight for Less
 * [markdown](http://www.vim.org/scripts/script.php?script_id=1242) - syntax highlight for Markdown
 * [ruby](https://github.com/vim-ruby/vim-ruby/wiki) - syntax highlight, smart identation, auto-complete for Ruby
 * [scss](https://github.com/cakebaker/scss-syntax.vim) - syntax highlight for scss
