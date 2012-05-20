@@ -55,7 +55,6 @@ Also check out [Vimbits](http://vimbits.com) for a ton of great vimrc snippets.
 * [neocomplcache](neocomplcach://github.com/Shougo/neocomplcachec) - ultimate auto-completion system
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332) - the magic souce that makes it super easy to install plugins
 * [powerline](http://https://github.com/Lokaltog/vim-powerline) - fills statusline with useful information
-* [preview](http://www.vim.org/scripts/script.php?script_id=3344) - [leader] P previews Markdown, Rdoc, Textile, html. Requires Ruby and other gems
 * [smartinput](https://github.com/kana/vim-smartinput) - automatically closes brackets and quotes.
 * [snipmate](https://github.com/akitaonrails/snipmate.vim) - support for textmate-like snippets. Snipmate and snippets for it is in snipmate/ folder
 * [surround](http://www.vim.org/scripts/script.php?script_id=1697) - add, change, remove surrounding parentheses, brackets, quotes, etc
