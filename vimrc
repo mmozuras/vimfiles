@@ -93,11 +93,6 @@ vmap <Right> >gv
 noremap <Leader>/ :nohls<CR>
 nnoremap <Leader>ss :source $MYVIMRC<Bar>:source $MYVIMRC<CR>
 
-nnoremap <Tab>h <C-w>h
-nnoremap <Tab>j <C-w>j
-nnoremap <Tab>l <C-w>l
-nnoremap <Tab>k <C-w>k
-
 colorscheme molokai
 if has("gui_running")
     "tell the term has 256 colors
