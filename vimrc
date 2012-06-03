@@ -33,8 +33,8 @@ set visualbell t_vb=           "disable visual bell
 
 set foldlevelstart=99          "remove folds
 
-set wildmode=list:longest      "make cmdline tab completion similar to bash
 set wildmenu                   "enable ctrl-n and ctrl-p to scroll thru matches
+set wildmode=list:longest      "make cmdline tab completion similar to bash
 set wildignore=*.o,*.obj,*~    "stuff to ignore when tab completing
 
 set formatoptions-=o           "dont continue comments when pushing o/O
@@ -89,6 +89,14 @@ nmap <Left> <<
 nmap <Right> >>
 vmap <Left> <gv
 vmap <Right> >gv
+
+noremap <Leader>/ :nohls<CR>
+nnoremap <Leader>ss :source $MYVIMRC<Bar>:source $MYVIMRC<CR>
+
+nnoremap <Tab>h <C-w>h
+nnoremap <Tab>j <C-w>j
+nnoremap <Tab>l <C-w>l
+nnoremap <Tab>k <C-w>k
 
 colorscheme molokai
 if has("gui_running")
