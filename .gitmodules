@@ -106,10 +106,6 @@
 	path = snipmate/snipmate-snippets
 	url = git://github.com/honza/snipmate-snippets
         ignore = dirty
-[submodule "snipmate/snipmate-mocha"]
-	path = snipmate/snipmate-mocha
-	url = git://github.com/mmozuras/snipmate-mocha.git
-        ignore = dirty
 [submodule "snipmate/snipmate-shouldjs"]
 	path = snipmate/snipmate-shouldjs
 	url = git://github.com/mmozuras/snipmate-shouldjs.git
@@ -128,3 +124,6 @@
 [submodule "bundle/erlang"]
 	path = bundle/erlang
 	url = https://github.com/jimenezrick/vimerl
+[submodule "snipmate/snipmate-mocha"]
+	path = snipmate/snipmate-mocha
+	url = git://github.com/mmozuras/snipmate-mocha.git
