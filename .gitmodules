@@ -127,3 +127,6 @@
 [submodule "snipmate/snipmate-mocha"]
 	path = snipmate/snipmate-mocha
 	url = git://github.com/mmozuras/snipmate-mocha.git
+[submodule "bundle/rails"]
+	path = bundle/rails
+	url = git://github.com/tpope/vim-rails.git
