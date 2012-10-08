@@ -57,6 +57,7 @@ Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tre
 * [neocomplcache](neocomplcach://github.com/Shougo/neocomplcachec) - ultimate auto-completion system
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332) - the magic souce that makes it super easy to install plugins
 * [powerline](http://https://github.com/Lokaltog/vim-powerline) - fills statusline with useful information
+* [rails](https://github.com/tpope/vim-rails) - Ruby on Rails power tools
 * [smartinput](https://github.com/kana/vim-smartinput) - automatically closes brackets and quotes.
 * [snipmate](https://github.com/akitaonrails/snipmate.vim) - support for textmate-like snippets. Snipmate itself and snippets are in the snipmate/ folder
 * [surround](http://www.vim.org/scripts/script.php?script_id=1697) - add, change, remove surrounding parentheses, brackets, quotes, etc
