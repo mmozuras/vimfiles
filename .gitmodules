@@ -74,10 +74,6 @@
 	path = bundle/indexed-search
 	url = git://github.com/henrik/vim-indexed-search.git
         ignore = dirty
-[submodule "bundle/lusty-juggler"]
-	path = bundle/lusty-juggler
-	url = git://github.com/vim-scripts/LustyJuggler.git
-        ignore = dirty
 [submodule "bundle/neocomplcache"]
 	path = bundle/neocomplcache
 	url = git://github.com/Shougo/neocomplcache.git
@@ -121,12 +117,16 @@
 [submodule "bundle/golang"]
 	path = bundle/golang
 	url = git://github.com/uggedal/go-vim.git
+        ignore = dirty
 [submodule "bundle/erlang"]
 	path = bundle/erlang
 	url = https://github.com/jimenezrick/vimerl
+        ignore = dirty
 [submodule "snipmate/snipmate-mocha"]
 	path = snipmate/snipmate-mocha
 	url = git://github.com/mmozuras/snipmate-mocha.git
+        ignore = dirty
 [submodule "bundle/rails"]
 	path = bundle/rails
 	url = git://github.com/tpope/vim-rails.git
+        ignore = dirty
