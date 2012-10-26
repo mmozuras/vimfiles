@@ -6,4 +6,5 @@ let g:ctrlp_user_command = ['.git/', 'cd %s && git ls-files --exclude-standard -
 " Mappings
 let g:ctrlp_map = ',t'
 nnoremap <C-b> :CtrlPBuffer<CR>
+nnoremap <Leader>b :CtrlPBufTag<CR>
 nnoremap <Leader>c :CtrlPClearCache<CR>
