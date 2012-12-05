@@ -96,11 +96,11 @@
         ignore = dirty
 [submodule "snipmate/addon-mw-utils"]
 	path = snipmate/addon-mw-utils
-	url = git://github.com/MarcWeber/vim-addon-mw-utils
+	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
         ignore = dirty
 [submodule "snipmate/snipmate-snippets"]
 	path = snipmate/snipmate-snippets
-	url = git://github.com/honza/snipmate-snippets
+	url = git://github.com/honza/snipmate-snippets.git
         ignore = dirty
 [submodule "snipmate/snipmate-shouldjs"]
 	path = snipmate/snipmate-shouldjs
@@ -120,7 +120,7 @@
         ignore = dirty
 [submodule "bundle/erlang"]
 	path = bundle/erlang
-	url = https://github.com/jimenezrick/vimerl
+	url = git://github.com/jimenezrick/vimerl.git
         ignore = dirty
 [submodule "snipmate/snipmate-mocha"]
 	path = snipmate/snipmate-mocha
