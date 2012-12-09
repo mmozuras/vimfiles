@@ -64,7 +64,6 @@ Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tre
 * [syntastic](http://www.vim.org/scripts/script.php?script_id=2736) - checks for syntax errors in many languages
 * [tcomment](https://github.com/tomtom/tcomment_vim) - support to comment lines of code
 * [unimpaired](https://github.com/tpope/vim-unimpaired) - pairs of handy bracket mappings
-* [yankring](http://www.vim.org/scripts/script.php?script_id=1234) - maintains a history of yanks and deletes. History can be shared between multiple instances of vim
 
 ### Language Plugins
 
