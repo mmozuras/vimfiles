@@ -49,7 +49,6 @@ Also check out [Vimbits](http://vimbits.com) for a ton of great vimrc snippets.
 Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tree/master/bundle) folder. Their configurations are in the [plugin/settings/](https://github.com/mmozuras/vimfiles/tree/master/plugin/settings) folder. Plugins I currently use:
 
 * [bundler](https://github.com/tpope/vim-bundler) - lightweight support for Ruby bundler
-* [clam](https://github.com/sjl/clam.vim) - easily run shell commands from Vim
 * [ctrlp](https://github.com/kien/ctrlp.vim) - the fastest and most intuitive way for opening files in your project
 * [endwise](http://www.vim.org/scripts/script.php?script_id=2386) - support to close Ruby blocks such as 'if', 'do' with 'end'
 * [fugitive](http://www.vim.org/scripts/script.php?script_id=2975) - support for Git, adding convenient commands such as :Gstatus, :Gread, :Gmove
