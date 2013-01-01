@@ -82,26 +82,6 @@
 	path = bundle/smartinput
 	url = git://github.com/kana/vim-smartinput.git
         ignore = dirty
-[submodule "snipmate/snipmate"]
-	path = snipmate/snipmate
-	url = git://github.com/garbas/vim-snipmate.git
-        ignore = dirty
-[submodule "snipmate/tlib_vim"]
-	path = snipmate/tlib_vim
-	url = git://github.com/tomtom/tlib_vim.git
-        ignore = dirty
-[submodule "snipmate/addon-mw-utils"]
-	path = snipmate/addon-mw-utils
-	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
-        ignore = dirty
-[submodule "snipmate/snipmate-snippets"]
-	path = snipmate/snipmate-snippets
-	url = git://github.com/honza/snipmate-snippets.git
-        ignore = dirty
-[submodule "snipmate/snipmate-shouldjs"]
-	path = snipmate/snipmate-shouldjs
-	url = git://github.com/mmozuras/snipmate-shouldjs.git
-        ignore = dirty
 [submodule "bundle/molokai"]
 	path = bundle/molokai
 	url = git://github.com/tomasr/molokai.git
@@ -109,10 +89,6 @@
 [submodule "bundle/erlang"]
 	path = bundle/erlang
 	url = git://github.com/jimenezrick/vimerl.git
-        ignore = dirty
-[submodule "snipmate/snipmate-mocha"]
-	path = snipmate/snipmate-mocha
-	url = git://github.com/mmozuras/snipmate-mocha.git
         ignore = dirty
 [submodule "bundle/rails"]
 	path = bundle/rails
@@ -122,3 +98,9 @@
         path = bundle/bundler
         url = git://github.com/tpope/vim-bundler.git
         ignore = dirty
+[submodule "bundle/neosnippet"]
+	path = bundle/neosnippet
+	url = git://github.com/Shougo/neosnippet.git
+[submodule "bundle/snipmate-snippets"]
+	path = bundle/snipmate-snippets
+	url = git://github.com/honza/snipmate-snippets.git
