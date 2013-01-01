@@ -68,7 +68,6 @@ Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tre
 ### Language Plugins
 
 [coffee-script](https://github.com/kchmck/vim-coffee-script)
-[golang](https://github.com/uggedal/go-vim)
 [erlang](https://github.com/jimenezrick/vimerl)
 [html5](https://github.com/othree/html5.vim)
 [jade](https://github.com/digitaltoad/vim-jade)

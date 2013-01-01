@@ -110,10 +110,6 @@
 	path = bundle/molokai
 	url = git://github.com/tomasr/molokai.git
         ignore = dirty
-[submodule "bundle/golang"]
-	path = bundle/golang
-	url = git://github.com/uggedal/go-vim.git
-        ignore = dirty
 [submodule "bundle/erlang"]
 	path = bundle/erlang
 	url = git://github.com/jimenezrick/vimerl.git
