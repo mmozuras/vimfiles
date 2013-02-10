@@ -56,7 +56,7 @@
         ignore = dirty
 [submodule "bundle/slim"]
 	path = bundle/slim
-	url = git://github.com/bbommarito/vim-slim.git
+        url = git://github.com/slim-template/vim-slim.git
         ignore = dirty
 [submodule "bundle/powerline"]
 	path = bundle/powerline
