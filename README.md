@@ -54,7 +54,6 @@ Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tre
 * [fugitive](http://www.vim.org/scripts/script.php?script_id=2975) - support for Git, adding convenient commands such as :Gstatus, :Gread, :Gmove
 * [gundo](http://www.vim.org/scripts/script.php?script_id=3304) - visualizes undo tree
 * [neocomplcache](neocomplcach://github.com/Shougo/neocomplcachec) - ultimate auto-completion system
-* [neosnippet](https://github.com/Shougo/neosnippet) - adds snippet support
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332) - the magic souce that makes it super easy to install plugins
 * [powerline](http://https://github.com/Lokaltog/vim-powerline) - fills statusline with useful information
 * [rails](https://github.com/tpope/vim-rails) - Ruby on Rails power tools
