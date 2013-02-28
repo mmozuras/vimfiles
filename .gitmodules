@@ -104,6 +104,3 @@
 [submodule "bundle/snipmate-snippets"]
 	path = bundle/snipmate-snippets
 	url = git://github.com/honza/snipmate-snippets.git
-[submodule "bundle/easymotion"]
-	path = bundle/easymotion
-	url = git://github.com/Lokaltog/vim-easymotion.git
