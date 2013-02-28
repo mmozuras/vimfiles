@@ -98,3 +98,6 @@
         path = bundle/bundler
         url = git://github.com/tpope/vim-bundler.git
         ignore = dirty
+[submodule "bundle/ack"]
+	path = bundle/ack
+	url = git://github.com/mileszs/ack.vim.git
