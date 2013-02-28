@@ -20,6 +20,9 @@ set showmode                   "show current mode down the bottom
 set incsearch                  "find the next match as we type the search
 set hlsearch                   "highlight searches by default
 
+set ignorecase                 "set search to be case insensitive
+set smartcase                  "unless you typed uppercase letters in your query
+
 set number                     "add line numbers
 set showbreak=...
 set wrap linebreak nolist
