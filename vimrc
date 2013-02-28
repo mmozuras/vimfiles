@@ -10,7 +10,6 @@ if !has("gui_running") && has("win32")
 endif
 
 call pathogen#infect()
-call pathogen#infect("snipmate")
 call pathogen#helptags()
 
 set backspace=indent,eol,start "allow backspacing over everything in insert mode
