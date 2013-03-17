@@ -100,7 +100,8 @@ nnoremap <Tab>j <C-w>j
 nnoremap <Tab>l <C-w>l
 nnoremap <Tab>k <C-w>k
 
-colorscheme molokai
+set background=dark
+colorscheme solarized
 if has("gui_running")
     "tell the term has 256 colors
     set t_Co=256
