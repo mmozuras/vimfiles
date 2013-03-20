@@ -54,13 +54,13 @@ Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tre
 * [endwise](http://www.vim.org/scripts/script.php?script_id=2386) - support to close Ruby blocks such as 'if', 'do' with 'end'
 * [fugitive](http://www.vim.org/scripts/script.php?script_id=2975) - support for Git, adding convenient commands such as :Gstatus, :Gread, :Gmove
 * [gundo](http://www.vim.org/scripts/script.php?script_id=3304) - visualizes undo tree
-* [neocomplcache](neocomplcach://github.com/Shougo/neocomplcachec) - ultimate auto-completion system
+* [neocomplcache](https://github.com/Shougo/neocomplcache) - ultimate auto-completion system
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332) - the magic souce that makes it super easy to install plugins
-* [powerline](http://https://github.com/Lokaltog/vim-powerline) - fills statusline with useful information
+* [powerline](https://github.com/Lokaltog/vim-powerline) - fills statusline with useful information
 * [rails](https://github.com/tpope/vim-rails) - Ruby on Rails power tools
 * [smartinput](https://github.com/kana/vim-smartinput) - automatically closes brackets and quotes.
-* [surround](http://www.vim.org/scripts/script.php?script_id=1697) - add, change, remove surrounding parentheses, brackets, quotes, etc
-* [syntastic](http://www.vim.org/scripts/script.php?script_id=2736) - checks for syntax errors in many languages
+* [surround](https://github.com/tpope/vim-surround) - add, change, remove surrounding parentheses, brackets, quotes, etc
+* [syntastic](https://github.com/scrooloose/syntastic) - checks for syntax errors in many languages
 * [tcomment](https://github.com/tomtom/tcomment_vim) - support to comment lines of code
 * [unimpaired](https://github.com/tpope/vim-unimpaired) - pairs of handy bracket mappings
 
@@ -71,7 +71,7 @@ Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tre
 [html5](https://github.com/othree/html5.vim)
 [jade](https://github.com/digitaltoad/vim-jade)
 [markdown](http://www.vim.org/scripts/script.php?script_id=1242)
-[ruby](https://github.com/vim-ruby/vim-ruby/wiki)
+[ruby](https://github.com/vim-ruby/vim-ruby)
 [scss](https://github.com/cakebaker/scss-syntax.vim)
 [slim](https://github.com/bbommarito/vim-slim)
 [stylus](https://github.com/wavded/vim-stylus)
