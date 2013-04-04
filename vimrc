@@ -80,6 +80,10 @@ inoremap kj <Esc>
 nnoremap + <C-a>
 nnoremap - <C-x>
 
+noremap <leader>y "*y
+noremap <leader>yy "*Y
+noremap <leader>p :set paste<CR>:put  *<CR>:set nopaste<CR>"
+
 "map up/down arrow keys to unimpaired commands
 nmap <Up> [e
 nmap <Down> ]e
