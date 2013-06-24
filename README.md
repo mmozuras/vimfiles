@@ -53,6 +53,7 @@ Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tre
 * [ctrlp](https://github.com/kien/ctrlp.vim) - the fastest and most intuitive way for opening files in your project
 * [endwise](http://www.vim.org/scripts/script.php?script_id=2386) - support to close Ruby blocks such as 'if', 'do' with 'end'
 * [fugitive](http://www.vim.org/scripts/script.php?script_id=2975) - support for Git, adding convenient commands such as :Gstatus, :Gread, :Gmove
+* [github-comment](https://github.com/mmozuras/vim-github-comment) - comment commits on GitHub using Vim
 * [gundo](http://www.vim.org/scripts/script.php?script_id=3304) - visualizes undo tree
 * [neocomplcache](https://github.com/Shougo/neocomplcache) - ultimate auto-completion system
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332) - the magic souce that makes it super easy to install plugins
