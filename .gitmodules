@@ -50,10 +50,6 @@
 	path = bundle/jade
 	url = git://github.com/digitaltoad/vim-jade.git
         ignore = dirty
-[submodule "bundle/stylus"]
-	path = bundle/stylus
-	url = git://github.com/wavded/vim-stylus.git
-        ignore = dirty
 [submodule "bundle/slim"]
 	path = bundle/slim
         url = git://github.com/slim-template/vim-slim.git
