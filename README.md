@@ -50,7 +50,6 @@ Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tre
 
 * [ack](https://github.com/mileszs/ack.vim) - better search, configured to use ag instead of ack
 * [bundler](https://github.com/tpope/vim-bundler) - lightweight support for Ruby bundler
-* [ctrlp](https://github.com/kien/ctrlp.vim) - the fastest and most intuitive way for opening files in your project
 * [endwise](http://www.vim.org/scripts/script.php?script_id=2386) - support to close Ruby blocks such as 'if', 'do' with 'end'
 * [fugitive](http://www.vim.org/scripts/script.php?script_id=2975) - support for Git, adding convenient commands such as :Gstatus, :Gread, :Gmove
 * [github-comment](https://github.com/mmozuras/vim-github-comment) - comment commits on GitHub using Vim

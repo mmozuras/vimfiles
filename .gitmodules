@@ -54,10 +54,6 @@
 	path = bundle/powerline
 	url = git://github.com/Lokaltog/vim-powerline.git
         ignore = dirty
-[submodule "bundle/ctrlp"]
-	path = bundle/ctrlp
-	url = git://github.com/kien/ctrlp.vim.git
-        ignore = dirty
 [submodule "bundle/tcomment"]
 	path = bundle/tcomment
 	url = git://github.com/tomtom/tcomment_vim.git
