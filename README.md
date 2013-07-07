@@ -63,6 +63,7 @@ Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tre
 * [syntastic](https://github.com/scrooloose/syntastic) - checks for syntax errors in many languages
 * [tcomment](https://github.com/tomtom/tcomment_vim) - support to comment lines of code
 * [unimpaired](https://github.com/tpope/vim-unimpaired) - pairs of handy bracket mappings
+* [unite](https://github.com/Shougo/unite.vim) - unite and create user interfaces
 
 ### Language Plugins
 
