@@ -74,10 +74,6 @@
 	path = bundle/smartinput
 	url = git://github.com/kana/vim-smartinput.git
         ignore = dirty
-[submodule "bundle/molokai"]
-	path = bundle/molokai
-	url = git://github.com/tomasr/molokai.git
-        ignore = dirty
 [submodule "bundle/erlang"]
 	path = bundle/erlang
 	url = git://github.com/jimenezrick/vimerl.git
