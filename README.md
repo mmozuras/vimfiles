@@ -70,7 +70,6 @@ Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tre
 [coffee-script](https://github.com/kchmck/vim-coffee-script)
 [erlang](https://github.com/jimenezrick/vimerl)
 [html5](https://github.com/othree/html5.vim)
-[jade](https://github.com/digitaltoad/vim-jade)
 [markdown](http://www.vim.org/scripts/script.php?script_id=1242)
 [ruby](https://github.com/vim-ruby/vim-ruby)
 [scss](https://github.com/cakebaker/scss-syntax.vim)

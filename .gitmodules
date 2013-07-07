@@ -46,10 +46,6 @@
 	path = bundle/pathogen
 	url = git://github.com/tpope/vim-pathogen.git
         ignore = dirty
-[submodule "bundle/jade"]
-	path = bundle/jade
-	url = git://github.com/digitaltoad/vim-jade.git
-        ignore = dirty
 [submodule "bundle/slim"]
 	path = bundle/slim
         url = git://github.com/slim-template/vim-slim.git
