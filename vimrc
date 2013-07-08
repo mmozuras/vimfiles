@@ -3,12 +3,6 @@ runtime bundle/pathogen/autoload/pathogen.vim
 set nocompatible               "use Vim settings, rather than Vi
 filetype off                   "required
 
-"powerline works poorly on windows vim
-let g:pathogen_disabled = []
-if !has("gui_running") && has("win32")
-    call add(g:pathogen_disabled, 'powerline')
-endif
-
 call pathogen#infect()
 call pathogen#helptags()
 

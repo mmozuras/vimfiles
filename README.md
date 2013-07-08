@@ -55,7 +55,6 @@ Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tre
 * [gundo](http://www.vim.org/scripts/script.php?script_id=3304) - visualizes undo tree
 * [neocomplcache](https://github.com/Shougo/neocomplcache) - ultimate auto-completion system
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332) - the magic souce that makes it super easy to install plugins
-* [powerline](https://github.com/Lokaltog/vim-powerline) - fills statusline with useful information
 * [rails](https://github.com/tpope/vim-rails) - Ruby on Rails power tools
 * [smartinput](https://github.com/kana/vim-smartinput) - automatically closes brackets and quotes.
 * [surround](https://github.com/tpope/vim-surround) - add, change, remove surrounding parentheses, brackets, quotes, etc
