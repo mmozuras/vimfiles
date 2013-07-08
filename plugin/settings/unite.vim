@@ -10,13 +10,13 @@ if executable('ag')
 endif
 
 " Mappings
-nnoremap <leader>t :<C-u>Unite -no-split -buffer-name=files   -start-insert file_rec/async:!<CR>
-nnoremap <leader>f :<C-u>Unite -no-split -buffer-name=files   -start-insert file<CR>
-nnoremap <leader>r :<C-u>Unite -no-split -buffer-name=mru     -start-insert file_mru<CR>
-nnoremap <leader>o :<C-u>Unite -no-split -buffer-name=outline -start-insert outline<CR>
-nnoremap <leader>y :<C-u>Unite -no-split -buffer-name=yank    history/yank<CR>
-nnoremap <leader>b :<C-u>Unite -no-split -buffer-name=buffer  buffer<CR>
-nnoremap <leader>a :<C-u>Unite -no-split grep:.<CR>
+nnoremap <Leader>f :<C-u>Unite -no-split -buffer-name=files   -start-insert file_rec/async:!<CR>
+nnoremap <Leader>t :<C-u>Unite -no-split -buffer-name=files   -start-insert file<CR>
+nnoremap <Leader>r :<C-u>Unite -no-split -buffer-name=mru     -start-insert file_mru<CR>
+nnoremap <Leader>o :<C-u>Unite -no-split -buffer-name=outline -start-insert outline<CR>
+nnoremap <Leader>y :<C-u>Unite -no-split -buffer-name=yank    history/yank<CR>
+nnoremap <Leader>b :<C-u>Unite -no-split -buffer-name=buffer  buffer<CR>
+nnoremap <Leader>a :<C-u>Unite -no-split grep:.<CR>
 
 autocmd FileType unite call s:unite_settings()
 function! s:unite_settings()
