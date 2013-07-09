@@ -72,4 +72,3 @@ Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tre
 [markdown](http://www.vim.org/scripts/script.php?script_id=1242)
 [ruby](https://github.com/vim-ruby/vim-ruby)
 [scss](https://github.com/cakebaker/scss-syntax.vim)
-[slim](https://github.com/bbommarito/vim-slim)
