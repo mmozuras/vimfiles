@@ -1,7 +1,7 @@
 runtime bundle/pathogen/autoload/pathogen.vim
 
 set nocompatible               "use Vim settings, rather than Vi
-filetype off                   "required
+filetype off
 
 call pathogen#infect()
 call pathogen#helptags()
@@ -33,8 +33,6 @@ set wildmenu                   "enable ctrl-n and ctrl-p to scroll thru matches
 set wildmode=list:longest      "make cmdline tab completion similar to bash
 set wildignore=*.o,*.obj,*~    "stuff to ignore when tab completing
 
-set formatoptions-=o           "dont continue comments when pushing o/O
-
 filetype plugin indent on      "load ftplugins and indent files
 
 syntax on                      "turn on syntax highlighting
@@ -63,8 +61,7 @@ set scrolloff=3
 set sidescrolloff=7
 set sidescroll=1
 
-let mapleader = ","            "map <Leader> from \ to ,
-let maplocalleader = "/"       "map <LocalLeader> to \
+let mapleader = ","
 
 map <Leader><Leader> <C-^>
 
@@ -74,6 +71,7 @@ inoremap kj <Esc>
 nnoremap + <C-a>
 nnoremap - <C-x>
 
+"copy/paste mappings
 noremap <leader>y "*y
 noremap <leader>yy "*Y
 noremap <leader>p :set paste<CR>:put  *<CR>:set nopaste<CR>"
