@@ -7,3 +7,5 @@ if !has('gui_running')
         au InsertLeave * set timeoutlen=1000
     augroup END
 endif
+
+let g:airline_theme='solarized2'
