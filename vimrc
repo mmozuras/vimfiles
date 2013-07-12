@@ -37,8 +37,6 @@ filetype plugin indent on      "load ftplugins and indent files
 
 syntax on                      "turn on syntax highlighting
 
-set mouse=a                    "mouse in all modes
-
 set hidden                     "hide buffers when not displayed
 
 set guioptions-=T              "turn off toolbar
@@ -64,9 +62,6 @@ set sidescroll=1
 let mapleader = ","
 
 map <Leader><Leader> <C-^>
-
-inoremap jk <Esc>
-inoremap kj <Esc>
 
 nnoremap + <C-a>
 nnoremap - <C-x>
@@ -115,8 +110,7 @@ if has("gui_running")
     endif
 endif
 
-"go to last position when opening a file, but now when writing commit log entry
-autocmd BufReadPost * call SetCursorPosition()
+"go to last position when opening a file, but now when writing commit messages
 function! SetCursorPosition()
     if &filetype !~ 'commit\c'
         if line("'\"") > 0 && line("'\"") <= line("$")
@@ -125,16 +119,17 @@ function! SetCursorPosition()
         endif
     end
 endfunction
+autocmd BufReadPost * call SetCursorPosition()
 
 "strip trailing whitespace
 function! <SID>StripTrailingWhitespaces()
-    "preparation: save last search, and cursor position.
+    "save last search and cursor position
     let _s=@/
     let l = line(".")
     let c = col(".")
-    "do the business:
+    "do the business
     %s/\s\+$//e
-    "restore previous search history, and cursor position
+    "restore previous search history and cursor position
     let @/=_s
     call cursor(l, c)
 endfunction
