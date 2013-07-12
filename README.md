@@ -1,11 +1,6 @@
-# Vim
-
-It is recommended that you use [gVim](http://www.vim.org/download.php#pc) in either Windows or Linux and [MacVim](https://github.com/b4winckler/macvim/downloads) for Mac.
-
 # Usage
 
-Clone this repo into your home directory either as .vim (linux/mac) or
-vimfiles (Windows). Such as:
+Clone this repo into your home directory. Such as:
 
     git clone --recursive git://github.com/mmozuras/vimfiles.git ~/.vim
 
@@ -15,13 +10,11 @@ on Linux/Mac like this:
 
     echo "source ~/.vim/vimrc" > ~/.vimrc
 
-On Windows you should create a <tt>_vimrc</tt> (_ instead of a dot) and add
-the following line inside:
-
-    source ~/vimfiles/vimrc
-
 This way you can override the default configuration by adding your own inside
 this file.
+
+Now, you should run bundle/YouCompleteMe/install.sh and the appropriate make file
+in bundle/vimproc.
 
 ## Learn Vim
 
@@ -42,11 +35,9 @@ Some of the people that inspired my .vim:
 * [Jeremy Mack](https://github.com/mutewinter)
 * [Yan Pritzker](https://github.com/skwp)
 
-Also check out [Vimbits](http://vimbits.com) for a ton of great vimrc snippets.
-
 ## Plugin List
 
-Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tree/master/bundle) folder. Their configurations are in the [plugin/settings/](https://github.com/mmozuras/vimfiles/tree/master/plugin/settings) folder. Plugins I currently use:
+Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tree/master/bundle) folder. Their configurations are in the [plugin/settings/](https://github.com/mmozuras/vimfiles/tree/master/plugin/settings) folder. Plugins currently used:
 
 * [airline](https://github.com/bling/vim-airline) - lean & mean statusline for vim that's light as air
 * [bundler](https://github.com/tpope/vim-bundler) - lightweight support for Ruby bundler
