@@ -102,3 +102,6 @@
 	path = bundle/airline
 	url = git@github.com:bling/vim-airline.git
         ignore = dirty
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = git@github.com:Valloric/YouCompleteMe.git
