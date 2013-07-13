@@ -9,3 +9,4 @@ if !has('gui_running')
 endif
 
 let g:airline_theme='solarized2'
+let g:airline_powerline_fonts = 1

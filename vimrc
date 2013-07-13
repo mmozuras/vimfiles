@@ -93,21 +93,13 @@ nnoremap <Tab>k <C-w>k
 
 set background=dark
 colorscheme solarized
-if has("gui_running")
-    "tell the term has 256 colors
-    set t_Co=256
-
-    set lines=60
-    set columns=120
-
-    if has("gui_gnome")
-        set guifont=Monospace\ Bold\ 11
-    elseif has("gui_mac") || has("gui_macvim")
-        set guifont=Menlo:h12
-    elseif has("gui_win32") || has("gui_win32s")
-        set guifont=Consolas:h11
-        set enc=utf-8
-    endif
+if has("gui_gnome")
+    set guifont=Monospace\ Bold\ 11
+elseif has("gui_mac") || has("gui_macvim")
+    set guifont=Meslo\ LG\ S\ DZ\ for\ Powerline:h12
+elseif has("gui_win32") || has("gui_win32s")
+    set guifont=Consolas:h11
+    set enc=utf-8
 endif
 
 "go to last position when opening a file, but now when writing commit messages
