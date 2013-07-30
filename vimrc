@@ -31,7 +31,7 @@ set foldlevelstart=99          "remove folds
 
 set wildmenu                   "enable ctrl-n and ctrl-p to scroll thru matches
 set wildmode=list:longest      "make cmdline tab completion similar to bash
-set wildignore+=*.o,*.obj,*.exe,*.so,*.dll,*.pyc,.svn,.hg,.bzr,.git
+set wildignore+=*.o,*.obj,*.exe,*.so,*.dll,*.pyc,*.swp,*.jpg,*.png,*.gif,*.pdf,*.bak,.svn,.hg,.bzr,.git,
 
 filetype plugin indent on      "load ftplugins and indent files
 
