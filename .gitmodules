@@ -78,14 +78,6 @@
 	path = bundle/solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
         ignore = dirty
-[submodule "bundle/github-comment"]
-	path = bundle/github-comment
-	url = git://github.com/mmozuras/vim-github-comment.git
-        ignore = dirty
-[submodule "bundle/webapi"]
-	path = bundle/webapi
-	url = git://github.com/mattn/webapi-vim.git
-        ignore = dirty
 [submodule "bundle/unite"]
 	path = bundle/unite
 	url = git@github.com:Shougo/unite.vim.git

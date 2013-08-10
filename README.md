@@ -43,7 +43,6 @@ Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tre
 * [bundler](https://github.com/tpope/vim-bundler) - lightweight support for Ruby bundler
 * [endwise](http://www.vim.org/scripts/script.php?script_id=2386) - support to close Ruby blocks such as 'if', 'do' with 'end'
 * [fugitive](http://www.vim.org/scripts/script.php?script_id=2975) - support for Git, adding convenient commands such as :Gstatus, :Gread, :Gmove
-* [github-comment](https://github.com/mmozuras/vim-github-comment) - comment commits on GitHub using Vim
 * [gundo](http://www.vim.org/scripts/script.php?script_id=3304) - visualizes undo tree
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332) - the magic souce that makes it super easy to install plugins
 * [rails](https://github.com/tpope/vim-rails) - Ruby on Rails power tools
