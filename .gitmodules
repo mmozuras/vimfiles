@@ -98,3 +98,6 @@
 	path = bundle/YouCompleteMe
 	url = git@github.com:Valloric/YouCompleteMe.git
         ignore = dirty
+[submodule "bundle/rspec"]
+	path = bundle/rspec
+	url = git@github.com:thoughtbot/vim-rspec.git

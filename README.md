@@ -46,6 +46,7 @@ Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tre
 * [gundo](http://www.vim.org/scripts/script.php?script_id=3304) - visualizes undo tree
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332) - the magic souce that makes it super easy to install plugins
 * [rails](https://github.com/tpope/vim-rails) - Ruby on Rails power tools
+* [rspec](https://github.com/thoughtbot/vim-rspec) - Run RSpec specs from Vim
 * [smartinput](https://github.com/kana/vim-smartinput) - automatically closes brackets and quotes.
 * [surround](https://github.com/tpope/vim-surround) - add, change, remove surrounding parentheses, brackets, quotes, etc
 * [syntastic](https://github.com/scrooloose/syntastic) - checks for syntax errors in many languages
