@@ -101,3 +101,6 @@
 [submodule "bundle/rspec"]
 	path = bundle/rspec
 	url = git@github.com:thoughtbot/vim-rspec.git
+[submodule "bundle/unite-rails"]
+	path = bundle/unite-rails
+	url = git@github.com:basyura/unite-rails.git
