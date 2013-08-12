@@ -32,7 +32,8 @@ nnoremap <Leader>rm :<C-u>Unite -no-split rails/model<CR>
 nnoremap <Leader>rc :<C-u>Unite -no-split rails/controller<CR>
 nnoremap <Leader>rv :<C-u>Unite -no-split rails/view<CR>
 nnoremap <Leader>rj :<C-u>Unite -no-split rails/javascript<CR>
-nnoremap <Leader>rs :<C-u>Unite -no-split rails/stylesheet<CR>
+nnoremap <Leader>rc :<C-u>Unite -no-split rails/stylesheet<CR>
+nnoremap <Leader>rs :<C-u>Unite -no-split rails/spec<CR>
 
 autocmd FileType unite call s:unite_settings()
 function! s:unite_settings()
