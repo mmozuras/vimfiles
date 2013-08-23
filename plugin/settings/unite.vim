@@ -20,20 +20,13 @@ call unite#custom_source('file,file_rec/async,file_mru', 'ignore_pattern',
 " Mappings
 nnoremap <Leader>f :<C-u>Unite -no-split -buffer-name=files   file_rec/async:!<CR>
 nnoremap <Leader>t :<C-u>Unite -no-split -buffer-name=files   file<CR>
-nnoremap <Leader>m :<C-u>Unite -no-split -buffer-name=mru     file_mru<CR>
+nnoremap <Leader>r :<C-u>Unite -no-split -buffer-name=mru     file_mru<CR>
 nnoremap <Leader>o :<C-u>Unite -no-split -buffer-name=outline outline<CR>
 nnoremap <Leader>y :<C-u>Unite -no-split -buffer-name=yank    history/yank<CR>
 nnoremap <Leader>b :<C-u>Unite -no-split -buffer-name=buffer  buffer<CR>
 nnoremap <Leader>d :<C-u>Unite -no-split -buffer-name=change-cwd -default-action=lcd directory_mru<CR>
 nnoremap <Leader>a :<C-u>Unite -no-split grep:.<CR>
 nnoremap <Leader>* :<C-u>UniteWithCursorWord -no-split grep:.<CR>
-
-nnoremap <Leader>rm :<C-u>Unite -no-split rails/model<CR>
-nnoremap <Leader>rc :<C-u>Unite -no-split rails/controller<CR>
-nnoremap <Leader>rv :<C-u>Unite -no-split rails/view<CR>
-nnoremap <Leader>rj :<C-u>Unite -no-split rails/javascript<CR>
-nnoremap <Leader>rc :<C-u>Unite -no-split rails/stylesheet<CR>
-nnoremap <Leader>rs :<C-u>Unite -no-split rails/spec<CR>
 
 autocmd FileType unite call s:unite_settings()
 function! s:unite_settings()
