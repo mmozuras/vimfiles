@@ -12,9 +12,11 @@ if executable('ag')
   let g:unite_source_grep_max_candidates = 200
 endif
 
-call unite#custom_source('file,file_rec/async,file_mru', 'ignore_pattern',
-      \'\%(^\|/\)\.$\|\~$\|\.\%(o\|exe\|dll\|bak\|sw[po]\|class\|jpg\|jpeg\|png\|gif\|swf\)$'.
-      \'\|\%(^\|/\)\%(\.hg\|\.git\|\.bzr\|\.svn\|tags\%(-.*\)\?\)\%($\|/\))')
+call unite#custom_source('file,file_rec/async,file_mru',
+           \ 'ignore_pattern',
+           \ escape(
+           \     substitute(join(split(&wildignore, ","), '\|'), '**/\?', '', 'g'),
+           \     '.'))
 
 " Mappings
 nnoremap <Leader>f :<C-u>Unite -no-split -buffer-name=files   file_rec/async:!<CR>
