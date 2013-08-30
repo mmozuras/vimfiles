@@ -39,6 +39,8 @@ syntax on                      "turn on syntax highlighting
 
 set hidden                     "hide buffers when not displayed
 
+autocmd VimResized * :wincmd = "automatically rebalance windows on resize
+
 set guioptions-=T              "turn off toolbar
 set guioptions-=m              "turn off menubar
 
