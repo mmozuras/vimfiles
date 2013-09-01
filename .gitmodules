@@ -104,3 +104,6 @@
 [submodule "bundle/unite-rails"]
 	path = bundle/unite-rails
 	url = git@github.com:basyura/unite-rails.git
+[submodule "bundle/whitespace"]
+	path = bundle/whitespace
+	url = git@github.com:mmozuras/vim-whitespace.git
