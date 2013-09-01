@@ -104,14 +104,3 @@ elseif has("gui_win32") || has("gui_win32s")
     set guifont=Consolas:h11
     set enc=utf-8
 endif
-
-"go to last position when opening a file, but now when writing commit messages
-function! SetCursorPosition()
-    if &filetype !~ 'commit\c'
-        if line("'\"") > 0 && line("'\"") <= line("$")
-            exe "normal! g`\""
-            normal! zz
-        endif
-    end
-endfunction
-autocmd BufReadPost * call SetCursorPosition()

@@ -107,3 +107,6 @@
 [submodule "bundle/whitespace"]
 	path = bundle/whitespace
 	url = git@github.com:mmozuras/vim-whitespace.git
+[submodule "bundle/cursor"]
+	path = bundle/cursor
+	url = git@github.com:mmozuras/vim-cursor.git
