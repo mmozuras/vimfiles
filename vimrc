@@ -96,13 +96,6 @@ nnoremap <Tab>j <C-w>j
 nnoremap <Tab>l <C-w>l
 nnoremap <Tab>k <C-w>k
 
-set background=dark
 colorscheme solarized
-if has("gui_gnome")
-    set guifont=Monospace\ Bold\ 11
-elseif has("gui_mac") || has("gui_macvim")
-    set guifont=Meslo\ LG\ S\ DZ\ for\ Powerline:h12
-elseif has("gui_win32") || has("gui_win32s")
-    set guifont=Consolas:h11
-    set enc=utf-8
-endif
+set background=dark
+set guifont=Meslo\ LG\ S\ DZ\ for\ Powerline:h12
