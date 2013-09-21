@@ -98,12 +98,6 @@
 	path = bundle/YouCompleteMe
 	url = git@github.com:Valloric/YouCompleteMe.git
         ignore = dirty
-[submodule "bundle/rspec"]
-	path = bundle/rspec
-	url = git@github.com:thoughtbot/vim-rspec.git
-[submodule "bundle/unite-rails"]
-	path = bundle/unite-rails
-	url = git@github.com:basyura/unite-rails.git
 [submodule "bundle/whitespace"]
 	path = bundle/whitespace
 	url = git@github.com:mmozuras/vim-whitespace.git
