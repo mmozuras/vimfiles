@@ -2,8 +2,8 @@ runtime bundle/pathogen/autoload/pathogen.vim
 
 set nocompatible               "use Vim settings, rather than Vi
 
+"call :Helptags to generate pathogen help tags. Not called here for performance
 call pathogen#infect()
-call pathogen#helptags()
 
 set backspace=indent,eol,start "allow backspacing over everything in insert mode
 
