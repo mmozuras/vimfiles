@@ -20,7 +20,6 @@ in bundle/vimproc.
 
 Visit the following sites to learn more about Vim:
 
-* [vim.org](http://www.vim.org/)
 * [Vimcasts](http://vimcasts.org)
 * [Derek Wyatt's videos](http://www.derekwyatt.org/vim/vim-tutorial-videos/)
 * [VimGolf](http://vimgolf.com/)
@@ -35,7 +34,7 @@ Some of the people that inspired my .vim:
 * [Jeremy Mack](https://github.com/mutewinter)
 * [Yan Pritzker](https://github.com/skwp)
 
-## Plugin List
+## Plugins
 
 Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tree/master/bundle) folder. Their configurations are in the [plugin/settings/](https://github.com/mmozuras/vimfiles/tree/master/plugin/settings) folder. Plugins currently used:
 
@@ -55,12 +54,3 @@ Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tre
 * [unite](https://github.com/Shougo/unite.vim) - unite and create user interfaces
 * [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) - code completion engine
 * [whitespace](https://github.com/mmozuras/vim-whitespace) - strips trailing whitespace
-
-### Language Plugins
-
-[coffee-script](https://github.com/kchmck/vim-coffee-script)
-[erlang](https://github.com/jimenezrick/vimerl)
-[html5](https://github.com/othree/html5.vim)
-[markdown](http://www.vim.org/scripts/script.php?script_id=1242)
-[ruby](https://github.com/vim-ruby/vim-ruby)
-[scss](https://github.com/cakebaker/scss-syntax.vim)

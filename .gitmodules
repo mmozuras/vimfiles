@@ -30,10 +30,6 @@
 	path = bundle/scss
 	url = git://github.com/cakebaker/scss-syntax.vim.git
         ignore = dirty
-[submodule "bundle/coffee-script"]
-	path = bundle/coffee-script
-	url = git://github.com/kchmck/vim-coffee-script.git
-        ignore = dirty
 [submodule "bundle/html5"]
 	path = bundle/html5
 	url = git://github.com/othree/html5.vim.git
@@ -101,6 +97,8 @@
 [submodule "bundle/whitespace"]
 	path = bundle/whitespace
 	url = git@github.com:mmozuras/vim-whitespace.git
+        ignore = dirty
 [submodule "bundle/cursor"]
 	path = bundle/cursor
 	url = git@github.com:mmozuras/vim-cursor.git
+        ignore = dirty
