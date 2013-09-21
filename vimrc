@@ -1,7 +1,6 @@
 runtime bundle/pathogen/autoload/pathogen.vim
 
 set nocompatible               "use Vim settings, rather than Vi
-filetype off
 
 call pathogen#infect()
 call pathogen#helptags()
