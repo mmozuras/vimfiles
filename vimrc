@@ -57,10 +57,7 @@ set softtabstop=2
 set expandtab
 set autoindent
 
-"vertical/horizontal scroll off settings
-set scrolloff=3
-set sidescrolloff=7
-set sidescroll=1
+set scrolloff=5
 
 if exists('+colorcolumn')
   set colorcolumn=80 "color the 80th column differently as a wrapping guide
