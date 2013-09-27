@@ -1,6 +1,6 @@
-runtime bundle/pathogen/autoload/pathogen.vim
-
 set nocompatible               "use Vim settings, rather than Vi
+
+runtime bundle/pathogen/autoload/pathogen.vim
 
 "call :Helptags to generate pathogen help tags. Not called here for performance
 call pathogen#infect()
@@ -37,6 +37,8 @@ filetype plugin indent on      "load ftplugins and indent files
 syntax on                      "turn on syntax highlighting
 
 set hidden                     "hide buffers when not displayed
+
+set ttyfast
 
 autocmd VimResized * :wincmd = "automatically rebalance windows on resize
 
