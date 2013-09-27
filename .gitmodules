@@ -102,3 +102,7 @@
 	path = bundle/cursor
 	url = git@github.com:mmozuras/vim-cursor.git
         ignore = dirty
+[submodule "bundle/elixir"]
+	path = bundle/elixir
+	url = git@github.com:elixir-lang/vim-elixir.git
+        ignore = dirty
