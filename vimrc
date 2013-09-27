@@ -40,14 +40,16 @@ set hidden                     "hide buffers when not displayed
 
 autocmd VimResized * :wincmd = "automatically rebalance windows on resize
 
-set guioptions-=T              "turn off toolbar
-set guioptions-=m              "turn off menubar
+if has('gui_running')
+  set guioptions-=T            "turn off toolbar
+  set guioptions-=m            "turn off menubar
 
-"turn off scrollbars
-set guioptions-=l
-set guioptions-=L
-set guioptions-=r
-set guioptions-=b
+  "turn off scrollbars
+  set guioptions-=l
+  set guioptions-=L
+  set guioptions-=r
+  set guioptions-=b
+end
 
 "indent settings
 set shiftwidth=2
