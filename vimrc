@@ -70,9 +70,6 @@ let mapleader = ","
 
 map <Leader><Leader> <C-^>
 
-nnoremap + <C-a>
-nnoremap - <C-x>
-
 "copy/paste mappings
 noremap <leader>y "*y
 noremap <leader>yy "*Y
