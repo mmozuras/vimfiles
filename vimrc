@@ -93,6 +93,10 @@ nnoremap <Tab>j <C-w>j
 nnoremap <Tab>l <C-w>l
 nnoremap <Tab>k <C-w>k
 
+inoremap jj <Esc><Esc>
+inoremap jk <Esc><Esc>
+inoremap kj <Esc><Esc>
+
 colorscheme solarized
 set background=dark
 set guifont=Meslo\ LG\ S\ DZ\ for\ Powerline:h12
