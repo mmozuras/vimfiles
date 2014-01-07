@@ -94,3 +94,7 @@
 	path = bundle/elixir
 	url = git@github.com:elixir-lang/vim-elixir.git
         ignore = dirty
+[submodule "bundle/ctrlp"]
+        path = bundle/ctrlp
+        url = git://github.com/kien/ctrlp.vim.git
+        ignore = dirty
