@@ -68,7 +68,7 @@
         ignore = dirty
 [submodule "bundle/ack"]
 	path = bundle/ack
-	url = git://github.com/mileszs/ack.vim.git
+	url = git@github.com:mileszs/ack.vim.git
         ignore = dirty
 [submodule "bundle/solarized"]
 	path = bundle/solarized

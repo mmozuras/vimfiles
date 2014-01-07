@@ -38,6 +38,7 @@ Some of the people that inspired my .vim:
 
 Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tree/master/bundle) folder. Their configurations are in the [plugin/settings/](https://github.com/mmozuras/vimfiles/tree/master/plugin/settings) folder. Plugins currently used:
 
+* [ack](https://github.com/mileszs/ack.vim) - better search, configured to use ag instead of ack
 * [airline](https://github.com/bling/vim-airline) - lean & mean statusline for vim that's light as air
 * [bundler](https://github.com/tpope/vim-bundler) - lightweight support for Ruby bundler
 * [cursor](https://github.com/mmozuras/vim-cursor) - go to previous cursor position when opening a file
