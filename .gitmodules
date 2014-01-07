@@ -74,10 +74,6 @@
 	path = bundle/solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
         ignore = dirty
-[submodule "bundle/unite"]
-	path = bundle/unite
-	url = git@github.com:Shougo/unite.vim.git
-        ignore = dirty
 [submodule "bundle/unite-outline"]
 	path = bundle/unite-outline
 	url = git@github.com:Shougo/unite-outline.git
