@@ -74,10 +74,6 @@
 	path = bundle/solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
         ignore = dirty
-[submodule "bundle/vimproc"]
-	path = bundle/vimproc
-	url = git@github.com:Shougo/vimproc.vim.git
-        ignore = dirty
 [submodule "bundle/airline"]
 	path = bundle/airline
 	url = git@github.com:bling/vim-airline.git
