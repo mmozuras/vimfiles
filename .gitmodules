@@ -98,3 +98,7 @@
         path = bundle/ctrlp
         url = git://github.com/kien/ctrlp.vim.git
         ignore = dirty
+[submodule "bundle/vimroom"]
+        path = bundle/vimroom
+        url = git@github.com:mikewest/vimroom.git
+        ignore = dirty
