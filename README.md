@@ -54,5 +54,4 @@ Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tre
 * [tcomment](https://github.com/tomtom/tcomment_vim) - support to comment lines of code
 * [unimpaired](https://github.com/tpope/vim-unimpaired) - pairs of handy bracket mappings
 * [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) - code completion engine
-* [vimroom](https://github.com/mikewest/vimroom) - distraction free writing environment
 * [whitespace](https://github.com/mmozuras/vim-whitespace) - strips trailing whitespace
