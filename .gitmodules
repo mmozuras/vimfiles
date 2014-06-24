@@ -106,3 +106,7 @@
         path = languages/go
         url = git@github.com:jnwhiteh/vim-golang.git
         ignore = dirty
+[submodule "languages/scala"]
+        path = languages/scala
+        url = git@github.com:derekwyatt/vim-scala.git
+        ignore = dirty
