@@ -36,7 +36,7 @@ Some of the people that inspired my .vim:
 
 ## Plugins
 
-Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tree/master/bundle) folder. Their configurations are in the [plugin/settings/](https://github.com/mmozuras/vimfiles/tree/master/plugin/settings) folder. Plugins currently used:
+Plugins themselves are in the [bundle/](https://github.com/mmozuras/vimfiles/tree/master/bundle) folder. Their configurations are in the [plugin/settings/](https://github.com/mmozuras/vimfiles/tree/master/plugin/settings) folder. And language files are in [languages](https://github.com/mmozuras/vimfiles/tree/master/languages) folder. Plugins currently used:
 
 * [ack](https://github.com/mileszs/ack.vim) - better search, configured to use ag instead of ack
 * [airline](https://github.com/bling/vim-airline) - lean & mean statusline for vim that's light as air

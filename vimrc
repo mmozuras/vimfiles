@@ -3,7 +3,8 @@ set nocompatible               "use Vim settings, rather than Vi
 runtime bundle/pathogen/autoload/pathogen.vim
 
 "call :Helptags to generate pathogen help tags. Not called here for performance
-call pathogen#infect()
+execute pathogen#infect()
+execute pathogen#infect('languages/{}')
 
 set backspace=indent,eol,start "allow backspacing over everything in insert mode
 
