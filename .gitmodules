@@ -106,3 +106,6 @@
         path = languages/scala
         url = git@github.com:derekwyatt/vim-scala.git
         ignore = dirty
+[submodule "languages/c"]
+	path = languages/c
+	url = git@github.com:vim-jp/cpp-vim.git
