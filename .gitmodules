@@ -109,3 +109,6 @@
 [submodule "languages/c"]
 	path = languages/c
 	url = git@github.com:vim-jp/cpp-vim.git
+[submodule "languages/rust"]
+	path = languages/rust
+	url = git@github.com:wting/rust.vim.git
