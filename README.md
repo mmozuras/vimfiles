@@ -13,8 +13,7 @@ on Linux/Mac like this:
 This way you can override the default configuration by adding your own inside
 this file.
 
-Now, you should run bundle/YouCompleteMe/install.sh and the appropriate make file
-in bundle/vimproc.
+To complete installation run `bundle/YouCompleteMe/install.sh`.
 
 ## Learn Vim
 
