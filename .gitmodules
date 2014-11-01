@@ -107,8 +107,18 @@
         url = git@github.com:derekwyatt/vim-scala.git
         ignore = dirty
 [submodule "languages/c"]
-	path = languages/c
-	url = git@github.com:vim-jp/cpp-vim.git
+        path = languages/c
+        url = git@github.com:vim-jp/cpp-vim.git
+        ignore = dirty
 [submodule "languages/rust"]
-	path = languages/rust
-	url = git@github.com:wting/rust.vim.git
+        path = languages/rust
+        url = git@github.com:wting/rust.vim.git
+        ignore = dirty
+[submodule "bundle/rspec"]
+        path = bundle/rspec
+        url = git@github.com:thoughtbot/vim-rspec.git
+        ignore = dirty
+[submodule "bundle/dispatch"]
+        path = bundle/dispatch
+        url = git://github.com/tpope/vim-dispatch.git
+        ignore = dirty
