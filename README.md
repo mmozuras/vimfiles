@@ -15,6 +15,10 @@ this file.
 
 To complete installation run `bundle/YouCompleteMe/install.sh`.
 
+## Troubleshooting
+
+If on OSX vim-dispatch and vim-rspec are not working correctly: consider removing the default `/etc/zshenv`. It uses `/usr/libexec/path_helper` which messes up $PATH.
+
 ## Learn Vim
 
 Visit the following sites to learn more about Vim:
