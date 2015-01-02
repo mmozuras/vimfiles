@@ -66,7 +66,7 @@ if exists('+colorcolumn')
   set colorcolumn=80 "color the 80th column differently as a wrapping guide
 endif
 
-let mapleader = ","
+let g:mapleader = ","
 
 map <Leader><Leader> <C-^>
 
