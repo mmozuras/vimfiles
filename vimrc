@@ -42,6 +42,7 @@ set hidden                     "hide buffers when not displayed
 set ttyfast
 
 autocmd VimResized * :wincmd = "automatically rebalance windows on resize
+autocmd InsertLeave * if expand('%') != '' | update | endif
 
 if has('gui_running')
   set guioptions-=T            "turn off toolbar
