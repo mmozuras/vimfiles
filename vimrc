@@ -90,10 +90,10 @@ vmap <Right> >gv
 
 noremap <Leader>/ :nohls<CR>
 
-nnoremap <Tab>h <C-w>h
-nnoremap <Tab>j <C-w>j
-nnoremap <Tab>l <C-w>l
-nnoremap <Tab>k <C-w>k
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
+noremap <C-h> <C-w>h
 
 inoremap jj <Esc><Esc>
 inoremap jk <Esc><Esc>
