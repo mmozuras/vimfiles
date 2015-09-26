@@ -98,10 +98,6 @@
         path = bundle/ctrlp
         url = git://github.com/kien/ctrlp.vim.git
         ignore = dirty
-[submodule "languages/go"]
-        path = languages/go
-        url = git@github.com:jnwhiteh/vim-golang.git
-        ignore = dirty
 [submodule "languages/scala"]
         path = languages/scala
         url = git@github.com:derekwyatt/vim-scala.git
