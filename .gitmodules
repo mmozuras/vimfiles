@@ -118,3 +118,7 @@
         path = bundle/dispatch
         url = git://github.com/tpope/vim-dispatch.git
         ignore = dirty
+[submodule "languages/go"]
+	path = languages/go
+	url = git@github.com:fatih/vim-go.git
+        ignore = dirty
