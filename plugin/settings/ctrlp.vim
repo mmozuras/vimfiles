@@ -1,7 +1,7 @@
 " Configuration
 let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$\|\.swp$\|node_modules$'
 let g:ctrlp_max_height = 15
-let g:ctrlp_user_command = ['.git/', 'cd %s && git ls-files --exclude-standard -co']
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
 " Mappings
 let g:ctrlp_map = ',t'
