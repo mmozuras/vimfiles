@@ -122,3 +122,6 @@
 	path = languages/go
 	url = git@github.com:fatih/vim-go.git
         ignore = dirty
+[submodule "bundle/airline-themes"]
+	path = bundle/airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes.git
