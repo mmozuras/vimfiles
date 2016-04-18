@@ -130,3 +130,7 @@
 	path = languages/swift
 	url = git@github.com:keith/swift.vim.git
         ignore = dirty
+[submodule "languages/kotlin"]
+	path = languages/kotlin
+	url = git@github.com:udalov/kotlin-vim.git
+        ignore = dirty
