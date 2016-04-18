@@ -125,3 +125,8 @@
 [submodule "bundle/airline-themes"]
 	path = bundle/airline-themes
 	url = git@github.com:vim-airline/vim-airline-themes.git
+        ignore = dirty
+[submodule "languages/swift"]
+	path = languages/swift
+	url = git@github.com:keith/swift.vim.git
+        ignore = dirty
