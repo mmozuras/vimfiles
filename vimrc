@@ -18,7 +18,7 @@ Plug 'mileszs/ack.vim'
 Plug 'altercation/vim-colors-solarized'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'Valloric/YouCompleteMe'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 Plug 'mmozuras/vim-whitespace'
 Plug 'mmozuras/vim-cursor'
 Plug 'ctrlpvim/ctrlp.vim'
