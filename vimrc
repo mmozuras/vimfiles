@@ -1,10 +1,44 @@
 set nocompatible               "use Vim settings, rather than Vi
 
-runtime bundle/pathogen/autoload/pathogen.vim
+call plug#begin('~/.vim/plugged')
 
-"call :Helptags to generate pathogen help tags. Not called here for performance
-execute pathogen#infect()
-execute pathogen#infect('languages/{}')
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-dispatch'
+Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-bundler'
+Plug 'scrooloose/syntastic'
+Plug 'sjl/gundo.vim'
+Plug 'tomtom/tcomment_vim'
+Plug 'henrik/vim-indexed-search'
+Plug 'kana/vim-smartinput'
+Plug 'mileszs/ack.vim'
+Plug 'altercation/vim-colors-solarized'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'Valloric/YouCompleteMe'
+Plug 'mmozuras/vim-whitespace'
+Plug 'mmozuras/vim-cursor'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'thoughtbot/vim-rspec'
+
+"Languages
+Plug 'tpope/vim-markdown'
+Plug 'vim-ruby/vim-ruby'
+Plug 'cakebaker/scss-syntax.vim'
+Plug 'othree/html5.vim'
+Plug 'jimenezrick/vimerl'
+Plug 'elixir-lang/vim-elixir'
+Plug 'derekwyatt/vim-scala'
+Plug 'vim-jp/cpp-vim'
+Plug 'wting/rust.vim'
+Plug 'fatih/vim-go'
+Plug 'keith/swift.vim'
+Plug 'udalov/kotlin-vim'
+
+call plug#end()
 
 set backspace=indent,eol,start "allow backspacing over everything in insert mode
 
