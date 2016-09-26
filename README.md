@@ -16,11 +16,7 @@ on Linux/Mac like this:
 This way you can override the default configuration by adding your own inside
 this file.
 
-## Troubleshooting
-
-If on OSX vim-dispatch and vim-rspec are not working correctly: consider removing the default `/etc/zshenv`. It uses `/usr/libexec/path_helper` which messes up $PATH.
-
-## Learn Vim
+# Learn Vim
 
 Visit the following sites to learn more about Vim:
 
@@ -28,7 +24,7 @@ Visit the following sites to learn more about Vim:
 * [Derek Wyatt's videos](http://www.derekwyatt.org/vim/vim-tutorial-videos/)
 * [VimGolf](http://vimgolf.com/)
 
-## Credits
+# Credits
 
 Some of the people that inspired my .vim:
 
