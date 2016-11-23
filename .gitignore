@@ -10,3 +10,4 @@ tags
 *.arj
 tmp/
 log/
+plugged/
