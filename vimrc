@@ -1,5 +1,10 @@
 set nocompatible               "use Vim settings, rather than Vi
 
+"temporary fix for https://github.com/vim/vim/issues/3117
+if has('python3')
+  silent! python3 1
+endif
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-surround'
